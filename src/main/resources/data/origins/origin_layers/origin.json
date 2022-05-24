@@ -2,6 +2,7 @@
     "replace": false,
     "origins": [
         "fwporigins:example",
-        "fwporigins:silkwyrm"
+        "fwporigins:silkwyrm",
+        "fwporigins:umbrabeastkin"
     ]
 }

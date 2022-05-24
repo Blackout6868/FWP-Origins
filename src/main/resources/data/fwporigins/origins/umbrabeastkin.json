@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:climbing",
+    "origins:elytra",
+    "origins:fresh_air",
+    "fwporigins:holy_fire"
+  ],
+  "icon": "minecraft:crying_obsidian",
+  "impact": 3,
+  "name": "Umbra Beastkin",
+  "description": "Description: As the sunlight fades and the night grows cold, from the darkness something watches…"
+}
