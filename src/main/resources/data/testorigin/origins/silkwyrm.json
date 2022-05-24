@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:climbing",
+    "origins:elytra",
+    "origins:fresh_air",
+    "testorigin:holy_fire"
+  ],
+  "icon": "minecraft:white_dye",
+  "impact": 3,
+  "name": "Silkwyrm",
+  "description": "Grimbley"
+}

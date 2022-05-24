@@ -1,6 +1,7 @@
 {
     "replace": false,
     "origins": [
-        "testorigin:example"
+        "testorigin:example",
+        "testorigin:silkwyrm"
     ]
 }
