@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:fire_immunity",
+    "origins:elytra",
+    "origins:fresh_air",
+    "testorigin:holy_fire"
+  ],
+  "icon": "minecraft:slime_ball",
+  "impact": 1,
+  "name": "Test",
+  "description": "A Trial"
+}
