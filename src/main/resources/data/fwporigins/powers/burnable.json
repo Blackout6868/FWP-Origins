@@ -4,9 +4,9 @@
     "type": "origins:fire"
   },
   "modifier": {
-    "name": "Burnable Bug",
-    "description": "Got that yee yee @$$ burnable carapace lookin ah boy",
     "operation": "addition",
     "value": 1
-  }
+  },
+  "description": "Got that yee yee @$$ burnable carapace lookin ah boy",
+  "name": "Burnable Bug"
 }
