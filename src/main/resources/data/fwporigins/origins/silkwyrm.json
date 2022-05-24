@@ -1,9 +1,6 @@
 {
   "powers": [
-    "origins:climbing",
-    "origins:elytra",
-    "origins:fresh_air",
-    "fwporigins:holy_fire"
+    "origins:climbing"
   ],
   "icon": "minecraft:white_dye",
   "impact": 3,
