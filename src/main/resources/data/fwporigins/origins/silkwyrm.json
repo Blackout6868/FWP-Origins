@@ -1,6 +1,7 @@
 {
   "powers": [
-    "origins:climbing"
+    "origins:climbing",
+    "fwporigins:burnable"
   ],
   "icon": "minecraft:white_dye",
   "impact": 3,

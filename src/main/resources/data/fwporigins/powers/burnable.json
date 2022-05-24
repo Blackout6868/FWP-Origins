@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "modifier": {
+    "name": "Burnable Bug",
+    "description": "Got that yee yee @$$ burnable carapace lookin ah boy",
+    "operation": "addition",
+    "value": 1
+  }
+}
