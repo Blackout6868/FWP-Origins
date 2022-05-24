@@ -3,7 +3,7 @@
     "origins:fire_immunity",
     "origins:elytra",
     "origins:fresh_air",
-    "testorigin:holy_fire"
+    "fwporigins:holy_fire"
   ],
   "icon": "minecraft:slime_ball",
   "impact": 1,
