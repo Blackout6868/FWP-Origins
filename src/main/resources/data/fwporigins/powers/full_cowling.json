@@ -1,0 +1,304 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "origins:food_level",
+          "comparison": "<=",
+          "compare_to": 1
+        },
+        "action": {
+          "type": "origins:damage",
+            "amount": 0.5,
+            "source": {
+              "name": "lack of energy",
+              "fire": false,
+              "bypasses_armor": true
+          }
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:xp_levels",
+          "comparison": "<=",
+          "compare_to": 10
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:strength",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:jump_boost",
+                "duration": 100,
+                "amplifier": 1,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:hunger",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:xp_levels",
+          "comparison": "<=",
+          "compare_to": 20
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:strength",
+                "duration": 100,
+                "amplifier": 1,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 1,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:jump_boost",
+                "duration": 100,
+                "amplifier": 2,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:hunger",
+                "duration": 100,
+                "amplifier": 1,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          ]
+        }
+      },
+
+
+      {
+        "condition": {
+          "type": "origins:xp_levels",
+          "comparison": "<=",
+          "compare_to": 30        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:strength",
+                "duration": 100,
+                "amplifier": 2,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 2,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:jump_boost",
+                "duration": 100,
+                "amplifier": 3,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 100,
+                "amplifier": 1,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:hunger",
+                "duration": 100,
+                "amplifier": 2,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "condition": {
+          "type": "origins:xp_levels",
+          "comparison": ">=",
+          "compare_to": 31
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:strength",
+                "duration": 100,
+                "amplifier": 3,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 3,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:jump_boost",
+                "duration": 100,
+                "amplifier": 5,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 100,
+                "amplifier": 2,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:hunger",
+                "duration": 100,
+                "amplifier": 3,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "cooldown": 0,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": true
+  },
+  "name": "Full Cowling",
+  "description": "Your power spreads throughout your body"
+}

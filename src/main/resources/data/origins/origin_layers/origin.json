@@ -3,6 +3,7 @@
     "origins": [
         "fwporigins:example",
         "fwporigins:silkwyrm",
-        "fwporigins:umbrabeastkin"
+        "fwporigins:umbrabeastkin",
+        "fwporigins:oneforall"
     ]
 }
