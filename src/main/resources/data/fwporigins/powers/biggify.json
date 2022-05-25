@@ -2,12 +2,12 @@
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:execute_command",
-    "command": "scale multiply 1.25"
+    "command": "scale multiply 1.01"
   },
   "key": {
     "key": "key.origins.primary_active",
-    "continuous": false
+    "continuous": true
   },
   "name": "Biggify",
-  "description": "Make yoself larger"
+  "description": "Make yoself largeh"
 }

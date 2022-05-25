@@ -1,6 +1,7 @@
 {
   "powers": [
     "fwporigins:biggify",
+    "fwporigins:smallify",
     "origins:climbing",
     "fwporigins:burnable"
   ],
