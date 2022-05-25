@@ -1,7 +1,8 @@
 {
   "powers": [
     "fwporigins:high_vitality",
-    "fwporigins:very_tall"
+    "fwporigins:very_tall",
+    "fwporigins:natural_born_hunter"
   ],
   "icon": "minecraft:crying_obsidian",
   "impact": 3,

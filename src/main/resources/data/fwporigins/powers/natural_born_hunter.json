@@ -1,0 +1,17 @@
+{
+    "type": "origins:multiple",
+    "speed": {
+      "type": "origins:modifier",
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": 10
+    },
+    "jump": {
+      "type": "origins:modifier",
+      "attribute": "minecraft:generic.jump_height",
+      "operation": "multiply_total",
+      "value": 10
+    },
+  "name": "Natural Born Hunter",
+  "description": "You are very fast and agile."
+  }
