@@ -1,6 +1,7 @@
 {
   "powers": [
-    "fwporigins:high_vitality"
+    "fwporigins:high_vitality",
+    "fwporigins:very_tall"
   ],
   "icon": "minecraft:crying_obsidian",
   "impact": 3,

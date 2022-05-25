@@ -1,0 +1,10 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "scale set 1.5"
+  },
+  "execute_chosen_when_orb": true,
+  "name": "Very Tall",
+  "description": "You are 3 blocks tall like a freak."
+}
