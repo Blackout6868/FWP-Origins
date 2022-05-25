@@ -1,0 +1,149 @@
+{
+  "type": "origins:multiple",
+  "silverfish_egg": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:silverfish_egg",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:string"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:silverfish_spawn_egg"
+      }
+    }
+  },
+  "infested_stone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:infested_stone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stone"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:infested_stone"
+      }
+    }
+  },
+  "infested_cobblestone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:infested_cobblestone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:infested_cobblestone"
+      }
+    }
+  },
+  "infested_stone_bricks": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:infested_stone_bricks",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stone_bricks"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:infested_stone_bricks"
+      }
+    }
+  },
+  "infested_cracked_stone_bricks": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:infested_cracked_stone_bricks",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:cracked_stone_bricks"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:infested_cracked_stone_bricks"
+      }
+    }
+  },
+  "infested_mossy_stone_bricks": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:infested_mossy_stone_bricks",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:mossy_stone_bricks"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:infested_mossy_stone_bricks"
+      }
+    }
+  },
+  "infested_chiseled_stone_bricks": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:infested_chiseled_stone_bricks",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:chiseled_stone_bricks"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:infested_chiseled_stone_bricks"
+      }
+    }
+  },
+  "infested_deepslate": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "fwporigins:infested_deepslate",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:deepslate"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:infested_deepslate"
+      }
+    }
+  },
+  "name": "Silverfish Relations",
+  "description": "You are able to produce silverfish eggs and infested stone using string and the respective block."
+}
