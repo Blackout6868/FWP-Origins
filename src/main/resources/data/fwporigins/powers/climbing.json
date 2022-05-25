@@ -3,7 +3,7 @@
   "toggle": {
     "type": "origins:toggle",
     "key": {
-      "key": "~",
+      "key": "`",
       "continuous": false
     }
   },

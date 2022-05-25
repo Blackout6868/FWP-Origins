@@ -1,0 +1,16 @@
+{
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "fwporigins:web_crafting",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:string"
+      }
+    ],
+    "result": {
+      "item": "minecraft:cobweb"
+    }
+  },
+  "hidden": true
+}

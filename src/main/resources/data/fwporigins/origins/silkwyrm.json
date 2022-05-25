@@ -5,7 +5,8 @@
     "fwporigins:climbing",
     "origins:no_cobweb_slowdown",
     "fwporigins:burnable",
-    "fwporigins:high_atomic_density"
+    "fwporigins:high_atomic_density",
+    "fwporigins:web_crafting"
   ],
   "icon": "minecraft:white_dye",
   "impact": 3,
