@@ -2,7 +2,8 @@
   "powers": [
     "fwporigins:biggify",
     "fwporigins:smallify",
-    "origins:climbing",
+    "fwporigins:climbing",
+    "origins:no_cobweb_slowdown",
     "fwporigins:burnable"
   ],
   "icon": "minecraft:white_dye",
