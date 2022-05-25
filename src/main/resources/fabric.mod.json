@@ -3,10 +3,12 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fuzzy Wuzzy Pogchamps- Origins(Fabric)",
+  "description": "Custom Minecraft origins for members of the fuzzy wuzzy pogcham smp! Requires origins 1.3.2 and pehkui 3.3.1",
   "authors": [
-    "Me!"
+    "Blackout6868",
+    "Sewaddle36",
+    "Shadow_7183"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
