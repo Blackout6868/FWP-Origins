@@ -2,11 +2,12 @@
   "powers": [
     "fwporigins:biggify",
     "fwporigins:smallify",
-    "fwporigins:climbing",
+    "fwporigins:web_crafting",
     "origins:no_cobweb_slowdown",
+    "fwporigins:climbing",
     "fwporigins:burnable",
-    "fwporigins:high_atomic_density",
-    "fwporigins:web_crafting"
+    "fwporigins:atomic_instability",
+    "fwporigins:high_atomic_density"
   ],
   "icon": "minecraft:white_dye",
   "impact": 3,

@@ -12,5 +12,6 @@
       "item": "minecraft:cobweb"
     }
   },
-  "hidden": true
+  "name": "Web Spinner",
+  "description": "You can craft cobwebs with string and move through them effortlessly."
 }

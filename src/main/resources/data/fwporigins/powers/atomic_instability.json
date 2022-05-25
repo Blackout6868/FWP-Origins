@@ -1,0 +1,35 @@
+{
+  "type": "origins:prevent_death",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:explode",
+        "power": 10,
+        "destruction_type": "none",
+        "damage_self": true,
+        "create_fire": false
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:portal"
+        },
+        "count": 320,
+        "speed": 0.0,
+        "force": true,
+        "spread": {
+          "x": 5.0,
+          "y": 3.0,
+          "z": 5.0
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "kill @s"
+      }
+    ]
+  },
+  "name": "Atomic Instability",
+  "description": "(!!!WARNING!!!: Extreme density may result in violent combustion. Upon death, you explode with tremendous force.)"
+}
