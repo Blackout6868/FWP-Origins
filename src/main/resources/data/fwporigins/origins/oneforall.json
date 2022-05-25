@@ -1,6 +1,7 @@
 {
   "powers": [
-    "fwporigins:full_cowling"
+    "fwporigins:full_cowling",
+    "fwporigins:xpdrain"
   ],
   "icon": "minecraft:totem_of_undying",
   "impact": 3,
