@@ -1,7 +1,9 @@
 {
   "powers": [
+    "fwporigins:hundo_smash",
     "fwporigins:full_cowling",
     "fwporigins:xpdrain"
+
   ],
   "icon": "minecraft:totem_of_undying",
   "impact": 3,

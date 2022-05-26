@@ -16,6 +16,6 @@
     "key": "key.origins.secondary_active",
     "continuous": true
   },
-  "name": "Secondary ability XP Drain",
+  "name": "XP Drain",
   "description": "As  you use your secondary ability your levels drain"
 }

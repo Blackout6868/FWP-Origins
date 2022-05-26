@@ -1,0 +1,63 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "glow": {
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 0.0,
+    "green": 1.0,
+    "blue": 0.0,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "extradamage": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:damage",
+      "amount": 20,
+      "source": {
+        "name": "player",
+        "bypasses_armor": false
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    },
+    
+    "damageself": {
+      "type": "origins:self_action_on_hit",
+      "entity_action": {
+      "type": "origins:damage",
+      "amount": 10,
+      "source": {
+        "name": "lack of energy",
+        "fire": false,
+        "bypasses_armor": false
+      }
+      },
+      "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+          "type": "origins:power_active",
+          "power": ":_toggle"
+        }
+      }
+    }
+  },
+
+
+    "name": "100% smash",
+    "description": "Work In Progress"
+  }
