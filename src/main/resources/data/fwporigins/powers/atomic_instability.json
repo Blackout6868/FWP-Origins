@@ -1,35 +1,92 @@
 {
   "type": "origins:prevent_death",
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:if_else_list",
     "actions": [
       {
-        "type": "origins:explode",
-        "power": 20,
-        "destruction_type": "none",
-        "damage_self": true,
-        "create_fire": false
-      },
-      {
-        "type": "origins:spawn_particles",
-        "particle": {
-          "type": "minecraft:portal"
+        "condition": {
+          "type": "origins:advancement",
+          "advancement": "minecraft:nether/summon_wither",
+          "inverted": true
         },
-        "count": 320,
-        "speed": 0.0,
-        "force": true,
-        "spread": {
-          "x": 5.0,
-          "y": 3.0,
-          "z": 5.0
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:explode",
+              "power": 20,
+              "destruction_type": "none",
+              "damage_self": false,
+              "create_fire": false
+            },
+            {
+              "type": "origins:spawn_particles",
+              "particle": {
+                "type": "minecraft:portal"
+              },
+              "count": 320,
+              "speed": 0.0,
+              "force": true,
+              "spread": {
+                "x": 5.0,
+                "y": 3.0,
+                "z": 5.0
+              }
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "kill @s"
+            }
+          ]
         }
       },
       {
-        "type": "origins:execute_command",
-        "command": "kill @s"
+        "condition": {
+          "type": "origins:advancement",
+          "advancement": "minecraft:nether/summon_wither"
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:explode",
+              "power": 60,
+              "destruction_type": "none",
+              "damage_self": false,
+              "create_fire": false
+            },
+            {
+              "type": "origins:spawn_particles",
+              "particle": {
+                "type": "minecraft:portal"
+              },
+              "count": 960,
+              "speed": 0.0,
+              "force": true,
+              "spread": {
+                "x": 10.0,
+                "y": 6.0,
+                "z": 10.0
+              }
+            },
+            {
+              "type": "origins:spawn_effect_cloud",
+              "radius": 6.0,
+              "wait_time": 20,
+              "effect": {
+                "effect": "minecraft:poison",
+                "duration": 200
+              }
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "kill @s"
+            }
+          ]
+        }
       }
     ]
   },
   "name": "Atomic Instability",
-  "description": "{!!!WARNING!!! Extreme density may result in violent combustion!} Upon death, you explode with tremendous force."
+  "description": "{!!!WARNING!!! Extreme density may result in violent combustion!} Upon death, you explode with tremendous force. There may be some way to increase the potency of this destructive force."
 }

@@ -375,26 +375,40 @@
             {
               "effect": "minecraft:regeneration",
               "amplifier": 1,
-              "duration": 2400
+              "duration": 2400,
+              "show_icon": false
             },
             {
               "effect": "minecraft:absorption",
               "amplifier": 4,
-              "duration": 2400
+              "duration": 2400,
+              "show_icon": false
             },
             {
               "effect": "minecraft:resistance",
               "amplifier": 1,
-              "duration": 2400
+              "duration": 2400,
+              "show_icon": false
             },
             {
               "effect": "minecraft:strength",
               "amplifier": 1,
-              "duration": 2400
+              "duration": 2400,
+              "show_icon": false
             },
             {
               "effect": "minecraft:night_vision",
+              "duration": 2400,
+              "show_icon": false
+            },
+            {
+              "effect": "minecraft:glowing",
               "duration": 2400
+            },
+            {
+              "effect": "minecraft:fire_resistance",
+              "duration": 2400,
+              "show_icon": false
             }
           ]
         }
