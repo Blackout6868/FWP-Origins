@@ -51,7 +51,7 @@
         "type": "origins:attacker",
         "entity_condition": {
           "type": "origins:power_active",
-          "power": ":_toggle"
+          "power": "*:*_toggle"
         }
       }
     }
