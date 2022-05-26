@@ -11,8 +11,8 @@
     "fwporigins:geophage",
     "fwporigins:burnable"
   ],
-  "icon": "minecraft:white_dye",
+  "icon": "minecraft:nether_star",
   "impact": 3,
   "name": "Silkwyrm",
-  "description": "Grimbley"
+  "description": "A relative of the silverfish with an extremely dense body, allowing for size manipulation."
 }
