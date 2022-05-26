@@ -1,0 +1,391 @@
+{
+  "type": "origins:multiple",
+  "hidden": false,
+  "copper": {
+    "type": "origins:active_self",
+    "cooldown": 40,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s copper_ingot 1"
+        },
+        {
+          "type": "origins:feed",
+          "food": 4,
+          "saturation": 2
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.generic.eat"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:copper_ingot"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:copper_ingot"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
+    }
+  },
+  "iron": {
+    "type": "origins:active_self",
+    "cooldown": 40,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s iron_ingot 1"
+        },
+        {
+          "type": "origins:feed",
+          "food": 4,
+          "saturation": 6
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.generic.eat"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:iron_ingot"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:iron_ingot"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
+    }
+  },
+  "gold": {
+    "type": "origins:active_self",
+    "cooldown": 40,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s gold_ingot 1"
+        },
+        {
+          "type": "origins:feed",
+          "food": 4,
+          "saturation": 6
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.generic.eat"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:gold_ingot"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:gold_ingot"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
+    }
+  },
+  "emerald": {
+    "type": "origins:active_self",
+    "cooldown": 40,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s emerald 1"
+        },
+        {
+          "type": "origins:feed",
+          "food": 2,
+          "saturation": 2
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.generic.eat"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:emerald"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:emerald"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
+    }
+  },
+  "diamond": {
+    "type": "origins:active_self",
+    "cooldown": 40,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s diamond 1"
+        },
+        {
+          "type": "origins:feed",
+          "food": 6,
+          "saturation": 14.4
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.generic.eat"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:diamond"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:diamond"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
+    }
+  },
+  "netherite": {
+    "type": "origins:active_self",
+    "cooldown": 40,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s netherite_ingot 1"
+        },
+        {
+          "type": "origins:feed",
+          "food": 20,
+          "saturation": 20
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.generic.eat"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:netherite_ingot"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:netherite_ingot"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
+    }
+  },
+  "nether_star": {
+    "type": "origins:active_self",
+    "cooldown": 40,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s nether_star 1"
+        },
+        {
+          "type": "origins:feed",
+          "food": 20,
+          "saturation": 20
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.generic.eat"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:nether_star"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:nether_star"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
+    }
+  },
+  "name": "Geophage",
+  "description": "Your digestive system allows you to eat only processed metals and gems. These include copper, iron, gold, emeralds, diamonds, netherite, and nether stars."
+}

@@ -6,9 +6,10 @@
     "origins:no_cobweb_slowdown",
     "fwporigins:climbing",
     "fwporigins:silverfish_relations",
-    "fwporigins:burnable",
     "fwporigins:atomic_instability",
-    "fwporigins:high_atomic_density"
+    "fwporigins:high_atomic_density",
+    "fwporigins:geophage",
+    "fwporigins:burnable"
   ],
   "icon": "minecraft:white_dye",
   "impact": 3,
