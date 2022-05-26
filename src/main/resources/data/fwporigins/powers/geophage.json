@@ -298,6 +298,21 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.eat"
+        },
+        {
+          "type": "origins:apply_effect",
+          "effects": [
+            {
+              "effect": "minecraft:regeneration",
+              "amplifier": 1,
+              "duration": 400
+            },
+            {
+              "effect": "minecraft:absorption",
+              "amplifier": 1,
+              "duration": 2400
+            }
+          ]
         }
       ]
     },
@@ -353,6 +368,35 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.eat"
+        },
+        {
+          "type": "origins:apply_effect",
+          "effects": [
+            {
+              "effect": "minecraft:regeneration",
+              "amplifier": 1,
+              "duration": 2400
+            },
+            {
+              "effect": "minecraft:absorption",
+              "amplifier": 4,
+              "duration": 2400
+            },
+            {
+              "effect": "minecraft:resistance",
+              "amplifier": 1,
+              "duration": 2400
+            },
+            {
+              "effect": "minecraft:strength",
+              "amplifier": 1,
+              "duration": 2400
+            },
+            {
+              "effect": "minecraft:night_vision",
+              "duration": 2400
+            }
+          ]
         }
       ]
     },
