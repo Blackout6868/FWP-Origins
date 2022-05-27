@@ -5,17 +5,42 @@
     "key": {
       "key": "key.drop",
       "continuous": true
-    }
-  },
-  "sicky": {
-    "type": "origins:multiple",
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:block",
+            "params": "minecraft:cobblestone"
+          },
+          "count": 8,
+          "speed": 0.0,
+          "force": true,
+          "offset_y": 0.75,
+          "spread": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.1
+          }
+        },
+        {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:cobblestone"
+          },
+          "item_action": {
+            "type": "origins:modify",
+            "modifier": "fwporigins:puke_stone"
+          },
+          "preferred_slot": "mainhand"
+        }
+      ]
+    },
     "condition": {
       "type": "origins:and",
       "conditions": [
-        {
-          "type": "origins:power_active",
-          "power": "fwporigins:regurgitate"
-        },
         {
           "type": "origins:sneaking"
         },
@@ -25,17 +50,24 @@
           "compare_to": 20
         }
       ]
-    },
-    "color": {
-      "type": "origins:model_color",
-      "red": 0.9,
-      "blue": 0.9
-    },
-    "yucky": {
-      "type": "origins:particle",
-      "particle": "minecraft:cobblestone",
-      "frequency": 4,
-      "visible_in_first_person": true
+    }
+  },
+  "color": {
+    "type": "origins:model_color",
+    "red": 0.7,
+    "blue": 0.7,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": "==",
+          "compare_to": 20
+        }
+      ]
     }
   },
   "hidden": true

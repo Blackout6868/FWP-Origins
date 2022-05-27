@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "What is this covered in..?",
+      "color": "light_gray",
+      "italic": false
+    }
+  ]
+}
