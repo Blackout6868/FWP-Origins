@@ -3,8 +3,8 @@
   "entity": "this",
   "lore": [
     {
-      "text": "What is this covered in..?",
-      "color": "light_gray",
+      "text": "What is this covered in...?",
+      "color": "gray",
       "italic": false
     }
   ]
