@@ -1,0 +1,42 @@
+{
+  "type": "origins:multiple",
+  "regurgitate": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.drop",
+      "continuous": true
+    }
+  },
+  "sicky": {
+    "type": "origins:multiple",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "fwporigins:regurgitate"
+        },
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": "==",
+          "compare_to": 20
+        }
+      ]
+    },
+    "color": {
+      "type": "origins:model_color",
+      "red": 0.9,
+      "blue": 0.9
+    },
+    "yucky": {
+      "type": "origins:particle",
+      "particle": "minecraft:cobblestone",
+      "frequency": 4,
+      "visible_in_first_person": true
+    }
+  },
+"hidden": true
+}

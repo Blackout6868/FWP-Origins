@@ -445,5 +445,5 @@
     }
   },
   "name": "Geophage",
-  "description": "Your digestive system allows you to eat only processed metals and gems. These include copper, iron, gold, emeralds, diamonds, netherite, and nether stars."
+  "description": "Your digestive system allows you to eat only processed metals and gems. These include copper, iron, gold, emeralds, diamonds, netherite, and nether stars. However, this provides you with the unique ability to regurgitate stone when you are full by crouching and holding Q."
 }
