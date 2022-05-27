@@ -35,17 +35,17 @@
         "power": "*:*_toggle"
       }
     },
-    
+
     "damageself": {
       "type": "origins:self_action_on_hit",
       "entity_action": {
-      "type": "origins:damage",
-      "amount": 10,
-      "source": {
-        "name": "lack of energy",
-        "fire": false,
-        "bypasses_armor": false
-      }
+        "type": "origins:damage",
+        "amount": 10,
+        "source": {
+          "name": "lack of energy",
+          "fire": false,
+          "bypasses_armor": false
+        }
       },
       "damage_condition": {
         "type": "origins:attacker",
@@ -58,6 +58,6 @@
   },
 
 
-    "name": "100% smash",
-    "description": "Work In Progress"
-  }
+  "name": "100% smash",
+  "description": "Work In Progress"
+}
