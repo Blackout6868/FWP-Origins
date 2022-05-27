@@ -1,9 +1,9 @@
 {
     "replace": false,
     "origins": [
-        "fwporigins:example",
         "fwporigins:silkwyrm",
         "fwporigins:umbrabeastkin",
-        "fwporigins:oneforall"
+        "fwporigins:oneforall",
+        "fwporigins:kangaroo"
     ]
 }

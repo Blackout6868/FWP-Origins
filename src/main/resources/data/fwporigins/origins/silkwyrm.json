@@ -1,16 +1,16 @@
 {
   "powers": [
-    "fwporigins:biggify",
-    "fwporigins:smallify",
-    "fwporigins:web_crafting",
+    "fwporigins:silkwyrm/biggify",
+    "fwporigins:silkwyrm/smallify",
+    "fwporigins:silkwyrm/web_crafting",
     "origins:no_cobweb_slowdown",
-    "fwporigins:climbing",
-    "fwporigins:silverfish_relations",
-    "fwporigins:atomic_instability",
-    "fwporigins:high_atomic_density",
-    "fwporigins:geophage",
-    "fwporigins:regurgitate",
-    "fwporigins:burnable"
+    "fwporigins:silkwyrm/climbing",
+    "fwporigins:silkwyrm/silverfish_relations",
+    "fwporigins:silkwyrm/geophage",
+    "fwporigins:silkwyrm/regurgitate",
+    "fwporigins:silkwyrm/burnable",
+    "fwporigins:silkwyrm/atomic_instability",
+    "fwporigins:silkwyrm/high_atomic_density"
   ],
   "icon": "minecraft:nether_star",
   "impact": 3,
