@@ -1,0 +1,154 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "no_pound": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:toggle",
+      "power": "*:*_toggle"
+    },
+    "interval": 10,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:on_block"
+        },
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        }
+      ]
+    }
+  },
+  "launch": {
+    "type": "origins:launch",
+    "cooldown": 40,
+    "speed": 1,
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    },
+    "hud_render": {
+      "bar_index": 4
+    }
+  },
+  "fall": {
+    "type": "origins:modify_falling",
+    "velocity": 1,
+    "take_fall_damage": false,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        },
+        {
+          "type": "origins:block_in_radius",
+          "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:exposed_to_sky"
+              },
+              {
+                "type": "origins:block",
+                "block": "minecraft:air",
+                "inverted": true
+              }
+            ]
+          },
+          "radius": 3,
+          "shape": "sphere",
+          "comparison": ">=",
+          "compare_to": 1,
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "glow": {
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 0.5,
+    "green": 0.1,
+    "blue": 0.1,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "land": {
+    "type": "origins:action_on_land",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:area_of_effect",
+          "radius": 4,
+          "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:add_velocity",
+                "z": 1
+              },
+              {
+                "type": "origins:damage",
+                "amount": 10,
+                "source": {
+                  "name": "Ground Pound",
+                  "unblockable": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:block",
+            "params": "minecraft:dirt"
+          },
+          "count": 1128,
+          "speed": 0.0,
+          "force": true,
+          "spread": {
+            "x": 3.5,
+            "y": 0.0,
+            "z": 3.5
+          }
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.player.big_fall",
+          "volume": 2,
+          "pitch": 0.25
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:block.anvil.land",
+          "volume": 0.1,
+          "pitch": 0.5
+        },
+        {
+          "type": "origins:toggle",
+          "power": "*:*_toggle"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "name": "Ground Pound",
+  "description": "Jump into the air and slam into the ground, causing a powerful shockwave."
+}
