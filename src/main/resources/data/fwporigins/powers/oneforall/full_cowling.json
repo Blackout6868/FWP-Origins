@@ -13,7 +13,7 @@
           "type": "origins:damage",
           "amount": 0.5,
           "source": {
-            "name": "lack of energy",
+            "name": "outOfWorld",
             "fire": false,
             "bypasses_armor": true
           }
@@ -358,5 +358,5 @@
     "continuous": true
   },
   "name": "Full Cowling",
-  "description": "Your power spreads throughout your body"
+  "description": "Your power spreads throughout your body giving you increased agility, strength, and hunger! Oh I should mention if you use this with no energy it will only harm you."
 }

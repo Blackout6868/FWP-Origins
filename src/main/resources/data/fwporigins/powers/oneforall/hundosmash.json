@@ -1,0 +1,102 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "glow": {
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 0.0,
+    "green": 1.0,
+    "blue": 0.0,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+
+"color": {
+  "type": "origins:model_color",
+  "red": 0.75,
+  "blue": 0.75,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "*:*_toggle"
+  }
+},
+
+  "extradamage": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:damage",
+      "amount": 20,
+      "source": {
+        "name": "player",
+        "bypasses_armor": false
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    }
+  },
+  "damagetoself": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:damage",
+        "amount": 15,
+        "source": {
+          "name": "outOfWorld",
+          "fire": false,
+          "bypasses_armor": false
+        }
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      }
+    }
+  },
+  "damageeffect": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:explosion_emitter"
+        },
+        "count": 16,
+        "speed": 0.0,
+        "force": true,
+        "spread": {
+          "x": 3.0,
+          "y": 0.0,
+          "z": 3.0
+        }
+      }
+    },
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  }
+  },
+
+  "name": "100% Smash",
+  "description": "You put all of your power into a single pun heavily damaging your opponent and yourself!"
+}
