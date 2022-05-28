@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon":{
+      "item": "minecraft:amethyst_shard"
+    },
+    "title": "Once again you underestimate the power of a beastkin warrior",
+    "description": "You feel a burning hot sensation in the core of your body. Your power grows...",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/obsidian.png",
+    "sound": "ui.toast.challenge_complete"
+  },
+  "criteria": {
+    "requirement":{
+      "trigger": "minecraft:consume_item",
+      "type": "origins:and",
+      "conditions": [
+        {
+          "item": "minecraft:crying_obsidian",
+          "count": 64
+        },
+        {
+          "items": [
+            "item.minecraft.potion.effect.night_vision",
+            "item.minecraft.potion.effect.invisibility",
+            "item.minecraft.potion.effect.leaping",
+            "item.minecraft.potion.effect.fire_resistance",
+            "item.minecraft.potion.effect.swiftness",
+            "item.minecraft.potion.effect.slowness",
+            "item.minecraft.potion.effect.water_breathing",
+            "item.minecraft.potion.effect.healing",
+            "item.minecraft.potion.effect.harming",
+            "item.minecraft.potion.effect.poison",
+            "item.minecraft.potion.effect.regeneration",
+            "item.minecraft.potion.effect.strength",
+            "item.minecraft.potion.effect.weakness",
+            "item.minecraft.potion.effect.turtle_master",
+            "item.minecraft.potion.effect.slow_falling"
+          ],
+          "count": 1
+        },
+        {
+          "type": "origins:advancement",
+          "advancement": "minecraft:story/enchant_item"
+        }
+      ]
+    }
+  }
+}

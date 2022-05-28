@@ -1,21 +1,22 @@
 {
   "display": {
-    "icon": {
-      "item": "minecraft:amethyst_shard"
+    "icon":{
+      "item": "minecraft:purple_dye"
     },
     "title": "Over 9000",
-    "description": "You feel tingly and energized!",
+    "description": "You feel a bit tingly.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "background": "minecraft:textures/block/crying_obsidian.png"
+    "background": "minecraft:textures/block/obsidian.png"
+    "sound": "ui.toast.challenge_complete"
   },
   "criteria": {
-    "requirement": {
+    "requirement":{
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "item": "crying_obsidian",
-        "count": "32"
+        "item": "minecraft:crying_obsidian",
+        "count": 32
       }
     }
   }
