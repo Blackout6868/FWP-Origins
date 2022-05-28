@@ -1,0 +1,56 @@
+{
+  "type": "origins:multiple",
+  "fall_immunity": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "fall"
+    }
+  },
+  "water_hopper": {
+    "type": "origins:walk_on_fluid",
+    "fluid": "minecraft:water",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking",
+          "inverted": true
+        },
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": "<=",
+          "compare_to": 0.4
+        }
+      ]
+    }
+  },
+  "lava_walker": {
+    "type": "origins:walk_on_fluid",
+    "fluid": "minecraft:lava",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking",
+          "inverted": true
+        },
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:lava",
+          "comparison": "<=",
+          "compare_to": 0.4
+        },
+        {
+          "type": "origins:armor_value",
+          "comparison": "==",
+          "compare_to": 12
+        }
+      ]
+    }
+  },
+
+  "name": "Boingnana",
+  "description": "Your kangaroo Portal 2 leg brace lookin ah negates all fall damage. Your big feet also allow you to walk across liquids. This only works on lava when using chainmail."
+}

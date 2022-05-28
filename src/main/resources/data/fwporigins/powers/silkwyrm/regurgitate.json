@@ -35,6 +35,10 @@
             "modifier": "fwporigins:puke_stone"
           },
           "preferred_slot": "mainhand"
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:block.lava.pop"
         }
       ]
     },

@@ -1,8 +1,9 @@
 {
   "powers": [
-    "fwporigins:kangaroo/bouncer"
+    "fwporigins:kangaroo/boingnana",
+    "origins:vegetarian"
   ],
-  "icon": "minecraft:totem_of_undying",
+  "icon": "minecraft:hopper",
   "impact": 3,
   "name": "Kangaroo",
   "description": "wallaby deez nuts"
