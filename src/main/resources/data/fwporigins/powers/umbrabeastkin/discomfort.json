@@ -3,23 +3,23 @@
   "head": {
     "type": "origins:armor_value",
     "comparison": ">",
-    "compare_to": 1
+    "compare_to": 0
   },
   "chest": {
     "type": "origins:armor_value",
     "comparison": ">",
-    "compare_to": 3
+    "compare_to": 0
   },
   "legs": {
     "type": "origins:armor_value",
     "comparison": ">",
-    "compare_to": 2
+    "compare_to": 0
   },
   "feet": {
     "type": "origins:armor_value",
     "comparison": ">",
-    "compare_to": 1
+    "compare_to": 0
   },
   "name": "Discomfort",
-  "description": "Metal armor is uncomfortable and restricting on your body."
+  "description": "Armor is uncomfortable and restricting on your body."
 }
