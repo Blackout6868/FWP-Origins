@@ -1,0 +1,11 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": true,
+  "title": "piss pouch",
+  "key": {
+    "key": "key.saveToolbarActivator",
+    "continuous": false
+  },
+  "name": "Piss Pouch",
+  "description": "As a marsupial, you have a special little pouch that you can access by pressing the 'c' button."
+}

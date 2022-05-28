@@ -1,6 +1,8 @@
 {
   "powers": [
     "fwporigins:kangaroo/boingnana",
+    "fwporigins:kangaroo/piss_pouch",
+    "fwporigins:kangaroo/armor_piercing_punch",
     "origins:vegetarian"
   ],
   "icon": "minecraft:hopper",

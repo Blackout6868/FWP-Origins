@@ -1,0 +1,24 @@
+{
+  "type": "origins:action_on_hit",
+  "bientity_action": {
+    "type": "origins:damage",
+    "amount": 3,
+    "source": {
+      "name": "Kangaroo Might",
+      "bypasses_armor": true,
+      "unblockable": true
+    }
+  },
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:empty"
+      }
+    }
+  },
+  "name": "Armor Piercing Punch",
+  "description": "Your punch is naturally very powerful, and is able to break through your target's armor."
+}
