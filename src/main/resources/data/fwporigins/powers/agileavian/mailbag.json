@@ -1,0 +1,11 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": true,
+  "title": "Mail Bag",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Mail Bag",
+  "description": "You have a mailbag that gives you 9 extra inventory slots"
+}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "fwporigins:agileavian/mailbag",
+    "fwporigins:agileavian/record_breaker",
+    "fwporigins:agileavian/enhanced_immunity"
+  ],
+  "icon": "minecraft:leather_boots",
+  "impact": 3,
+  "name": "Agile Avian",
+  "description": "A more roadrunner-like subtype of the avian with an obsession with speed."
+}

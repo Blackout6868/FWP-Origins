@@ -1,0 +1,17 @@
+{
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:weakness",
+    "minecraft:slowness",
+    "minecraft:mining_fatigue",
+    "minecraft:instant_damage",
+    "minecraft:nausea",
+    "minecraft:blindness",
+    "minecraft:poison",
+    "minecraft:levitation",
+    "minecraft:bad_omen",
+    "minecraft:unluck"
+  ],
+  "name": " Enhanced Immunity",
+  "description": "You are immune to all negative effects. (Except for decay)"
+}
