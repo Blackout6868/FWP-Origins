@@ -1,0 +1,12 @@
+{
+  "type": "origins:prevent_sleep",
+  "message": "It's not dark enough for you to sleep here",
+  "condition": {
+    "type": "origins:light_level",
+    "light_type": "block",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "name": "Dark preference",
+  "description": "You are not comfortable sleeping unless you are in complete darkness."
+}

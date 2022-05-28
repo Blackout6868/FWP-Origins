@@ -2,7 +2,10 @@
   "powers": [
     "fwporigins:umbrabeastkin/high_vitality",
     "fwporigins:umbrabeastkin/very_tall",
-    "fwporigins:umbrabeastkin/natural_born_hunter"
+    "fwporigins:umbrabeastkin/stalker_of_darkness",
+    "fwporigins:umbrabeastkin/thick_fur",
+    "fwporigins:umbrabeastkin/discomfort",
+    "fwporigins:umbrabeastkin/dark_preference"
   ],
   "icon": "minecraft:crying_obsidian",
   "impact": 3,

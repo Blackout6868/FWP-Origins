@@ -1,0 +1,57 @@
+{
+  "type": "origins:multiple",
+  "hidden": false,
+  "crying_obsidian": {
+    "type": "origins:active_self",
+    "cooldown": 0,
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s crying_obsidian 1"
+        },
+        {
+          ""
+        }
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:block.furnace.fire_crackle"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:crying_obsidian"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:crying_obsidian"
+            }
+          }
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/"
+    }
+  }
