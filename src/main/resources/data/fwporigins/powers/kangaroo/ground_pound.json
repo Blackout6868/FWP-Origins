@@ -4,7 +4,7 @@
     "type": "origins:toggle",
     "active_by_default": false,
     "key": {
-      "key": "key.origins.primary_active"
+      "key": "primary key"
     }
   },
   "launch": {
@@ -17,6 +17,17 @@
     },
     "hud_render": {
       "bar_index": 4
+    }
+  },
+  "coolit": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:toggle",
+      "power": "*:*_toggle"
+    },
+    "cooldown": 40,
+    "hud_render": {
+      "should_render": true
     }
   },
   "fall": {
