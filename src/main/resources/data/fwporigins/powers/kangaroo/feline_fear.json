@@ -1,0 +1,59 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 10,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:slowness",
+              "duration": 100,
+              "amplifier": 1
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:weakness",
+              "duration": 100,
+              "amplifier": 1
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:nausea",
+              "duration": 100,
+              "amplifier": 0
+            }
+          }
+        ]
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:distance",
+          "comparison": "<=",
+          "compare_to": 10
+        },
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:cat"
+          }
+        }
+      ]
+    }
+  },
+  "interval": 1,
+  "name": "Feline Fear",
+  "description": "You are so deathly afraid of cats that you become weak and nauseous when near them."
+}
