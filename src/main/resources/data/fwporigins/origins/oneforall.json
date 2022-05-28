@@ -2,9 +2,12 @@
   "powers": [
     "fwporigins:oneforall/hundosmash",
     "fwporigins:oneforall/full_cowling",
+    "fwporigins:oneforall/true_hero",
+    "fwporigins:oneforall/hero_training",
+    "fwporigins:oneforall/deep_pockets",
+    "fwporigins:oneforall/no_wings",
+    "fwporigins:oneforall/no_wings_two",
     "fwporigins:oneforall/xpdrain"
-
-
   ],
   "icon": "minecraft:totem_of_undying",
   "impact": 3,

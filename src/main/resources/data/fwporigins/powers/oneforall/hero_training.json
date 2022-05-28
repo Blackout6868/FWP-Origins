@@ -1,0 +1,19 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:add_xp",
+    "levels": 1
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "inverted": false,
+    "sprite_location": "fwporigins:textures/gui/resource_bar_blackout.png",
+    "bar_index": 1
+  },
+  "key": {
+    "key": "key.saveToolbarActivator"
+  },
+  "name": "Hero Training",
+  "description": "You Undergo Hero training to improve full cowling. Gaining one level per use."
+}

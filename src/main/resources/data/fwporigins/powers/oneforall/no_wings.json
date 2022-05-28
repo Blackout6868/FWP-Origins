@@ -1,0 +1,11 @@
+{
+  "type": "origins:restrict_armor",
+  "chest": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "name": "No Wings",
+  "description": "Elytra would only slow you down so you don't wear them."
+}
