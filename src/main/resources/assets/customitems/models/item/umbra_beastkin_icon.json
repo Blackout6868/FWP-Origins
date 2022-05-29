@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer@":"fwp_origins:items/umbra_beastkin_icon"
+  }
+}
