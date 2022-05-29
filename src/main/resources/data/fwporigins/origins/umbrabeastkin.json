@@ -10,7 +10,8 @@
     "fwporigins:umbrabeastkin/thick_fur",
     "fwporigins:umbrabeastkin/discomfort",
     "fwporigins:umbrabeastkin/dark_preference",
-    "origins:carnivore"
+    "origins:carnivore",
+    "fwporigins:umbrabeastkin/soaked_fur"
   ],
   "icon": "minecraft:crying_obsidian",
   "impact": 3,
