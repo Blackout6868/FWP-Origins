@@ -5,8 +5,7 @@
   "hud_render": {
     "should_render": true,
     "sprite_location": "fwporigins:textures/gui/resource_bar_shadow.png",
-    "bar_index": 0,
-    "start_value": 20
+    "bar_index": 0
   },
   "name": "Shadowflame Essence",
   "description": "You have an arcane essence that empowers you."

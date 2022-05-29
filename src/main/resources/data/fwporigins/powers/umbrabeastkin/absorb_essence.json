@@ -3,7 +3,6 @@
   "hidden": false,
   "crying_obsidian": {
     "type": "origins:active_self",
-    "cooldown": 0,
     "key": {
       "key": "key.use",
       "continuous": true
@@ -14,6 +13,17 @@
         {
           "type": "origins:execute_command",
           "command": "clear @s crying_obsidian 1"
+        },
+        {
+          "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "fwporigins:umbrabeastkin/shadowflame_essence",
+            "change": 2
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "give @s obsidian 1"
         },
         {
           "type": "origins:play_sound",
@@ -45,10 +55,8 @@
           }
         }
       ]
-    },
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/"
     }
-  }
+  },
+  "name": "Absorb Essence",
+  "description": "You can absorb the glowing essence from crying obsidian."
 }
