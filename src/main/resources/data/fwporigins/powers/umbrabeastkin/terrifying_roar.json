@@ -4,7 +4,7 @@
     "type": "origins:and",
     "actions": [
       {
-        "entity_action": {
+        "sound": {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.ender_dragon.growl",
           "volume": 1.0,
@@ -12,7 +12,7 @@
         }
       },
       {
-        "entity_action": {
+        "weakness": {
           "type": "origins:area_of_effect",
           "radius": 30,
           "bientity_action": {
@@ -29,7 +29,7 @@
         }
       },
       {
-        "entity_action": {
+        "slowness": {
           "type": "origins:area_of_effect",
           "radius": 30,
           "bientity_action": {
@@ -46,7 +46,7 @@
         }
       },
       {
-        "entity_action": {
+        "mining_fatigue": {
           "type": "origins:area_of_effect",
           "radius": 30,
           "bientity_action": {
