@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_sleep",
   "message": "It's not dark enough for you to sleep here",
-  "condition": {
+  "block_condition": {
     "type": "origins:light_level",
     "light_type": "block",
     "comparison": ">",

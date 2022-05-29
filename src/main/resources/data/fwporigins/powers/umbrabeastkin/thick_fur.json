@@ -1,4 +1,6 @@
 {
+  "type": "origins:action_over_time",
+  "interval": 20,
   "entity_action": {
     "type": "origins:apply_effect",
     "effects": [
@@ -16,7 +18,8 @@
         "show_particles": false,
         "show_icon": true
       }
-    ],
+    ]
+  },
     "condition": {
       "type": "origins:or",
       "conditions": [
@@ -24,12 +27,15 @@
           "type": "origins:in_rain"
         },
         {
-          "type": "origins:block",
-          "block": "minecraft:water"
+          "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
+          }
         }
       ]
-    }
-  },
+    },
   "name": "Thick Fur",
   "description": "Due to your thick fur you can be temporarily soaked with water. When soaked you are cold and fatigued."
 }

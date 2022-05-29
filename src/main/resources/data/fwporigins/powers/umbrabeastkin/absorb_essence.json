@@ -16,10 +16,6 @@
           "command": "clear @s crying_obsidian 1"
         },
         {
-          ""
-        }
-        },
-        {
           "type": "origins:play_sound",
           "sound": "minecraft:block.furnace.fire_crackle"
         }
@@ -55,3 +51,4 @@
       "sprite_location": "fwporigins:textures/gui/"
     }
   }
+}
