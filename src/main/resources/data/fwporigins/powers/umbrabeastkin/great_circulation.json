@@ -1,0 +1,21 @@
+{
+  "type": "origins:multiple",
+  "instant_health": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:instant_health",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "regeneration": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:regeneration",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "name": "Great Circulation",
+  "description": "Healing effects are amplified."
+}
