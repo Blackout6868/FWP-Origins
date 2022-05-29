@@ -34,7 +34,7 @@
             "effect": {
               "effect": "minecraft:weakness",
               "duration": 300,
-              "amplifier": 3
+              "amplifier": 2
             }
           }
         }
@@ -49,7 +49,7 @@
             "effect": {
               "effect": "minecraft:slowness",
               "duration": 300,
-              "amplifier": 3
+              "amplifier": 2
             }
           }
         }
@@ -65,7 +65,7 @@
             "effect": {
               "effect": "minecraft:mining_fatigue",
               "duration": 300,
-              "amplifier": 3
+              "amplifier": 2
             }
           }
         }
@@ -80,7 +80,7 @@
             "effect": {
               "effect": "minecraft:blindness",
               "duration": 60,
-              "amplifier": 1
+              "amplifier": 0
             }
           }
         }
@@ -95,7 +95,7 @@
             "effect": {
               "effect": "minecraft:nausea",
               "duration": 60,
-              "amplifier": 2
+              "amplifier": 1
             }
           }
         }
