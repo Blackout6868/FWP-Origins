@@ -16,7 +16,7 @@
       "continuous": false
     },
     "hud_render": {
-      "bar_index": 4
+      "bar_index": 5
     }
   },
   "coolit": {
@@ -27,7 +27,7 @@
     },
     "cooldown": 40,
     "hud_render": {
-      "should_render": true
+      "should_render": false
     }
   },
   "fall": {
@@ -69,7 +69,7 @@
     "type": "origins:self_glow",
     "use_teams": false,
     "red": 0.5,
-    "green": 0.1,
+    "green": 0.3,
     "blue": 0.1,
     "condition": {
       "type": "origins:power_active",
@@ -108,7 +108,7 @@
             "type": "minecraft:block",
             "params": "minecraft:dirt"
           },
-          "count": 1128,
+          "count": 512,
           "speed": 0.0,
           "force": true,
           "spread": {
