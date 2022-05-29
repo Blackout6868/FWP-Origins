@@ -1,28 +1,27 @@
 {
-  "multiple": {
-    "night_vision": {
-      "type": "origins:night_vision",
-      "strength": 1.0
-    },
-    "cloak_toggle": {
-      "type": "origins:invisibility",
-      "render_armor": false,
-      "condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:sneaking"
-          },
-          {
-            "type": "origins:light_level",
-            "light_type": "block",
-            "comparison": "<=",
-            "compare_to": 5
-          }
-        ]
-      }
-    },
-    "name": "Stalker Of Darkness",
-    "description": "You have excellent eyesight even in the dark and your shadowflame energy will cloak you upon sneaking in a dark enough area.[Cloak requires power level 3 or higher.]"
-  }
+  "type": "origins:multiple",
+  "night_vision": {
+    "type": "origins:night_vision",
+    "strength": 0.5
+  },
+  "cloak_toggle": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:light_level",
+          "light_type": "block",
+          "comparison": "<=",
+          "compare_to": 5
+        }
+      ]
+    }
+  },
+  "name": "Stalker Of Darkness",
+  "description": "You have excellent eyesight even in the dark and your shadowflame energy will cloak you upon sneaking in a dark enough area.[Cloak requires power level 3 or higher.]"
 }
