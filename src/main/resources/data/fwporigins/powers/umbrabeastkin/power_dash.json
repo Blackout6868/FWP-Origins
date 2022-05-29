@@ -22,7 +22,11 @@
           "action": {
             "type": "origins:damage",
             "amount": 5,
-            "bypasses_armor": true
+            "source": {
+              "name": "player",
+              "fire": false,
+              "bypasses_armor": true
+            }
           }
         }
       },
