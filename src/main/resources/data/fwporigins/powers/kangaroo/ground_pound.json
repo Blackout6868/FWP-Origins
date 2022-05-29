@@ -16,6 +16,7 @@
       "continuous": false
     },
     "hud_render": {
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png",
       "bar_index": 5
     }
   },
@@ -44,17 +45,9 @@
         {
           "type": "origins:block_in_radius",
           "block_condition": {
-            "type": "origins:and",
-            "conditions": [
-              {
-                "type": "origins:exposed_to_sky"
-              },
-              {
-                "type": "origins:block",
-                "block": "minecraft:air",
-                "inverted": true
-              }
-            ]
+            "type": "origins:block",
+            "block": "minecraft:air",
+            "inverted": true
           },
           "radius": 3,
           "shape": "sphere",

@@ -71,11 +71,11 @@
             },
             {
               "type": "origins:spawn_effect_cloud",
-              "radius": 16.0,
+              "radius": 32.0,
               "wait_time": 20,
               "effect": {
                 "effect": "minecraft:poison",
-                "duration": 1200
+                "duration": 6000
               }
             },
             {

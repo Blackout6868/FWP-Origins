@@ -1,0 +1,35 @@
+{
+  "type": "origins:multiple",
+  "launch": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:chance",
+          "action": {
+            "type": "origins:add_velocity",
+            "y": 3
+          },
+          "chance": 0.2
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cool"
+        }
+      ]
+    },
+    "interval": 1200
+  },
+  "cool": {
+    "type": "origins:cooldown",
+    "cooldown": 1200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png",
+      "bar_index": 4
+    }
+  },
+  "name": "Too Much Gusto",
+  "description": "Every 60 seconds, you have a 20% chance to accidentally launch yourself into the air."
+}
