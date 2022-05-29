@@ -1,0 +1,21 @@
+{
+  "type": "origins:multiple",
+  "lowhealth": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -6,
+      "operation": "addition"
+    }
+  },
+  "decayweak": {
+     "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:wither",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "name": "Frail body",
+  "description": "You have three less hearts than a human and are weak to decay."
+}

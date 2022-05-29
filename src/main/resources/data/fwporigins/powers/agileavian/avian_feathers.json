@@ -12,8 +12,8 @@
   "jump": {
     "type": "origins:modify_jump",
     "modifier": {
-      "operation": "multiply_base",
-      "value": 1
+      "operation": "addition",
+      "value": 0.15
     }
   },
 
@@ -23,7 +23,7 @@
     "take_fall_damage": false
   },
 
-  "name": " Avian feathers",
+  "name": "Avian feathers",
   "description": "You are faster, jump higher, and fall slower than a human."
 
 

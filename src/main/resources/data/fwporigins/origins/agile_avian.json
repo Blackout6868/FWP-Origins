@@ -3,7 +3,12 @@
     "fwporigins:agileavian/mailbag",
     "fwporigins:agileavian/record_breaker",
     "fwporigins:agileavian/enhanced_immunity",
-    "fwporigins:agileavian/avian_feathers"
+    "fwporigins:agileavian/avian_feathers",
+    "fwporigins:agileavian/peak_performance",
+    "fwporigins:agileavian/compact",
+    "fwporigins:agileavian/frail_body",
+    "fwporigins:agileavian/sleep",
+    "fwporigins:agileavian/bird_eyes"
   ],
   "icon": "minecraft:leather_boots",
   "impact": 3,

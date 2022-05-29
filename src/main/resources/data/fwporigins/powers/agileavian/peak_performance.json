@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Increased exhaustion",
+    "operation": "multiply_total",
+    "value": -0.5
+  },
+  "name": "Peak Performance",
+  "description": "You have become efficient in your use of energy, requiring less food."
+}

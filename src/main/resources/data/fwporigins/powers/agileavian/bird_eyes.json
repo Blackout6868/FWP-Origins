@@ -1,0 +1,21 @@
+{
+  "type": "origins:multiple",
+  "block": {
+    "type": "origins:modify_block_render",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:glass"
+    },
+    "block": "minecraft:air"
+},
+  "pane": {
+    "type": "origins:modify_block_render",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:glass_pane"
+    },
+    "block": "minecraft:air"
+  },
+  "name": "Bird Eyes",
+  "description": "You can’t see non-tinted glass at all."
+  }

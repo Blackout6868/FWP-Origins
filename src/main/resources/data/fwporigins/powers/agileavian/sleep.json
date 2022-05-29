@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_sleep",
+  "block_condition": {
+    "type": "origins:height",
+    "comparison": "<",
+    "compare_to": 80
+  },
+  "message": "The air isn't clear enough for you to sleep.",
+  "name": "Sleeping preference",
+  "description": "You can only sleep above y level 80."
+}
