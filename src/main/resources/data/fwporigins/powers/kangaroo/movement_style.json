@@ -33,6 +33,49 @@
       "inverted": true
     }
   },
+  "s_style": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_s"
+    },
+    "interval": 5,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "j_style": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_j"
+    },
+    "interval": 5,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle",
+      "inverted": true
+    }
+  },
+  "s": {
+    "type": "origins:cooldown",
+    "cooldown": 5,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle_two.png",
+      "bar_index": 3
+    }
+  },
+  "j": {
+    "type": "origins:cooldown",
+    "cooldown": 5,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle_two.png",
+      "bar_index": 2
+    }
+  },
   "name": "Movement Style",
   "description": "You are able to switch between a high-jump style and high-speed style at will."
 }
