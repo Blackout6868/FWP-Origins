@@ -4,57 +4,57 @@
     "type": "origins:and",
     "actions": [
       {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.ender_dragon.growl",
-          "volume": 1.0,
-          "pitch": 0.5
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.ender_dragon.growl",
+        "volume": 1.0,
+        "pitch": 0.5
 
       },
       {
-          "type": "origins:area_of_effect",
-          "radius": 30,
-          "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:apply_effect",
-              "effect": {
-                "effect": "minecraft:weakness",
-                "duration": 300,
-                "amplifier": 3
-              }
+        "type": "origins:area_of_effect",
+        "radius": 30,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:weakness",
+              "duration": 300,
+              "amplifier": 3
             }
+          }
         }
       },
       {
-          "type": "origins:area_of_effect",
-          "radius": 30,
-          "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:apply_effect",
-              "effect": {
-                "effect": "minecraft:slowness",
-                "duration": 300,
-                "amplifier": 3
-              }
+        "type": "origins:area_of_effect",
+        "radius": 30,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:slowness",
+              "duration": 300,
+              "amplifier": 3
             }
           }
+        }
 
       },
       {
-          "type": "origins:area_of_effect",
-          "radius": 30,
-          "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:apply_effect",
-              "effect": {
-                "effect": "minecraft:mining_fatigue",
-                "duration": 300,
-                "amplifier": 3
-              }
+        "type": "origins:area_of_effect",
+        "radius": 30,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:mining_fatigue",
+              "duration": 300,
+              "amplifier": 3
             }
           }
+        }
       }
     ]
   },
