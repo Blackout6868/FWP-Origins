@@ -6,8 +6,8 @@
   "hud_render": {
     "should_render": true,
     "sprite_location": "fwporigins:textures/gui/resource_bar_shadow.png",
-    "bar_index": 0
+    "bar_index": 2
   },
-  "name": "Shadowflame Essence",
-  "description": "You have an arcane essence that empowers you."
+  "name": "Stamina",
+  "description": "You have a stamina attribute that is used for your abilities."
 }
