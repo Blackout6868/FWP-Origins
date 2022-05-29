@@ -12,7 +12,7 @@
       {
         "type": "origins:add_velocity",
         "space": "local",
-        "z": 2
+        "z": 1
       },
       {
         "type": "origins:area_of_effect",
@@ -21,7 +21,7 @@
           "type": "origins:target_action",
           "action": {
             "type": "origins:damage",
-            "amount": 5,
+            "amount": 7,
             "source": {
               "name": "player",
               "fire": false,
