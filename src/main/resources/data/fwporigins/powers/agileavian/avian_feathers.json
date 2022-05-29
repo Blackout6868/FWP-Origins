@@ -1,0 +1,30 @@
+{
+  "type": "origins:multiple",
+  "speed": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 2,
+      "operation": "multiply_base"
+    }
+  },
+
+  "jump": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 2
+    }
+  },
+
+  "fall": {
+    "type": "origins:modify_falling",
+    "velocity": 0.5,
+    "take_fall_damage": false
+  },
+
+  "name": " Avian feathers",
+  "description": "You are faster, jump higher, and fall slower than a human."
+
+
+}

@@ -2,7 +2,8 @@
   "powers": [
     "fwporigins:agileavian/mailbag",
     "fwporigins:agileavian/record_breaker",
-    "fwporigins:agileavian/enhanced_immunity"
+    "fwporigins:agileavian/enhanced_immunity",
+    "fwporigins:agileavian/avian_feathers"
   ],
   "icon": "minecraft:leather_boots",
   "impact": 3,
