@@ -15,7 +15,7 @@
             {
               "type": "origins:explode",
               "power": 20,
-              "destruction_type": "none",
+              "destruction_type": "break",
               "damage_self": false,
               "create_fire": false
             },
@@ -51,7 +51,7 @@
             {
               "type": "origins:explode",
               "power": 60,
-              "destruction_type": "none",
+              "destruction_type": "break",
               "damage_self": false,
               "create_fire": false
             },
@@ -71,11 +71,11 @@
             },
             {
               "type": "origins:spawn_effect_cloud",
-              "radius": 6.0,
+              "radius": 16.0,
               "wait_time": 20,
               "effect": {
                 "effect": "minecraft:poison",
-                "duration": 200
+                "duration": 1200
               }
             },
             {
