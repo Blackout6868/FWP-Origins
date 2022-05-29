@@ -13,7 +13,7 @@
             "effect": {
               "effect": "minecraft:slowness",
               "duration": 100,
-              "amplifier": 1
+              "amplifier": 3
             }
           },
           {
@@ -21,7 +21,7 @@
             "effect": {
               "effect": "minecraft:weakness",
               "duration": 100,
-              "amplifier": 1
+              "amplifier": 2
             }
           },
           {

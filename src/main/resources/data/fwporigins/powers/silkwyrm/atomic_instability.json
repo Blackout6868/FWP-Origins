@@ -15,7 +15,7 @@
             {
               "type": "origins:explode",
               "power": 20,
-              "destruction_type": "break",
+              "destruction_type": "none",
               "damage_self": false,
               "create_fire": false
             },
@@ -51,7 +51,7 @@
             {
               "type": "origins:explode",
               "power": 60,
-              "destruction_type": "break",
+              "destruction_type": "none",
               "damage_self": false,
               "create_fire": false
             },
