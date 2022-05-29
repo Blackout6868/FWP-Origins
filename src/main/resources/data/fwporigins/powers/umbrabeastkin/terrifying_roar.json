@@ -4,15 +4,13 @@
     "type": "origins:and",
     "actions": [
       {
-        "sound": {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.ender_dragon.growl",
           "volume": 1.0,
           "pitch": 0.5
-        }
+
       },
       {
-        "weakness": {
           "type": "origins:area_of_effect",
           "radius": 30,
           "bientity_action": {
@@ -21,15 +19,13 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:weakness",
-                "duration": 15,
+                "duration": 300,
                 "amplifier": 3
               }
             }
-          }
         }
       },
       {
-        "slowness": {
           "type": "origins:area_of_effect",
           "radius": 30,
           "bientity_action": {
@@ -38,15 +34,14 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:slowness",
-                "duration": 15,
+                "duration": 300,
                 "amplifier": 3
               }
             }
           }
-        }
+
       },
       {
-        "mining_fatigue": {
           "type": "origins:area_of_effect",
           "radius": 30,
           "bientity_action": {
@@ -55,12 +50,11 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:mining_fatigue",
-                "duration": 15,
+                "duration": 300,
                 "amplifier": 3
               }
             }
           }
-        }
       }
     ]
   },
@@ -68,7 +62,7 @@
     "key": "key.origins.primary_active",
     "continuous": false
   },
-  "cooldown": 60,
+  "cooldown": 1200,
   "hud_render": {
     "should_render": true,
     "inverted": false,
