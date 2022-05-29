@@ -12,7 +12,7 @@
     "sound": "ui.toast.challenge_complete"
   },
   "criteria": {
-    "requirement":{
+    "requirement": {
       "trigger": "minecraft:consume_item",
       "type": "origins:and",
       "conditions": [
@@ -70,4 +70,5 @@
         }
       ]
     }
-  },
+  }
+  }
