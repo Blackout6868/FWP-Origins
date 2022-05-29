@@ -27,12 +27,10 @@
           "type": "origins:in_rain"
         },
         {
-          "condition": {
-            "type": "origins:fluid_height",
-            "fluid": "minecraft:water",
-            "comparison": ">",
-            "compare_to": 0
-          }
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0
         }
       ]
     },
