@@ -30,6 +30,13 @@
       "bar_index": 4
     }
   },
+  "join": {
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_cool"
+    }
+  },
   "name": "Too Much Gusto",
   "description": "Every 60 seconds, you have a 20% chance to accidentally launch yourself into the air."
 }
