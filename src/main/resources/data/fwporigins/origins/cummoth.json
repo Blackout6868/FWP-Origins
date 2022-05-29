@@ -1,7 +1,10 @@
 {
   "powers": [
+    "fwporigins:kangaroo/ground_pound",
     "fwporigins:cummoth/cum",
-    "fwporigins:cummoth/size"
+    "fwporigins:cummoth/girth",
+    "origins:no_shield",
+    "origins:more_exhaustion"
   ],
   "icon": "minecraft:milk_bucket",
   "impact": 3,

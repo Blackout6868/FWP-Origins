@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "key": {
-    "key": "key.origins.primary_active",
+    "key": "key.drop",
     "continuous": true
   },
   "entity_action": {
@@ -18,9 +18,9 @@
         "force": true,
         "offset_y": 0,
         "spread": {
-          "x": 2,
-          "y": 1,
-          "z": 2
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
         }
       },
       {

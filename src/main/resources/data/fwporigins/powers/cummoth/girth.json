@@ -1,0 +1,57 @@
+{
+  "type": "origins:multiple",
+  "tall":{
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:height 3"
+    },
+    "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:height 3"
+    },
+    "execute_chosen_when_orb": true
+  },
+
+  "wide":{
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:width 4"
+    },
+    "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:width 4"
+    },
+    "execute_chosen_when_orb": true
+  },
+
+  "step":{
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:step_height 2"
+    },
+    "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:step_height 2"
+    },
+    "execute_chosen_when_orb": true
+  },
+
+  "reach":{
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:reach 4"
+    },
+    "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:reach 4"
+    },
+    "execute_chosen_when_orb": true
+  },
+
+  "name": "Cummoth Girth",
+  "description": "Cummoths are far larger than the average player."
+}

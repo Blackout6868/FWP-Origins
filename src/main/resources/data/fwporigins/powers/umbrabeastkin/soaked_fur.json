@@ -1,19 +1,18 @@
 {
   "type": "origins:action_over_time",
-  "interval": 20,
+  "interval": 1,
   "entity_action": {
   "type": "origins:spawn_particles",
   "particle": {
-    "type": "minecraft:dripping_water",
-    "params": "0.922 0.314 0.314 2"
+    "type": "minecraft:dripping_water"
   },
-    "count": 100,
-    "speed": 1.0,
+    "count": 2,
+    "speed": 0,
     "force": true,
     "spread": {
-      "x": 0.0,
-      "y": -1.0,
-      "z": 0.0
+      "x": 0.25,
+      "y": 0.2,
+      "z": 0.25
     }
   },
   "condition": {
@@ -22,14 +21,14 @@
       {
         "type": "origins:status_effect",
         "effect": "minecraft:mining_fatigue",
-        "min_amplifier": 1,
-        "max_amplifier": 1
+        "min_amplifier": 0,
+        "max_amplifier": 0
       },
       {
         "type": "origins:status_effect",
         "effect": "minecraft:slowness",
-        "min_amplifier": 1,
-        "max_amplifier": 1
+        "min_amplifier": 0,
+        "max_amplifier": 0
       }
     ]
   }
