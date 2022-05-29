@@ -55,6 +55,6 @@
     "sprite_location": "fwporigins:textures/gui/resource_bar_shadow.png",
     "bar_index": 2
   },
-  "name": "§dPower Dash",
+  "name": "§n§dPower Dash",
   "description": "You take a quick and strong leap forward damaging and knocking back whoever you collide with in the process. Deals 5 damage ignoring armor, 10 second cooldown."
 }

@@ -114,6 +114,6 @@
     "sprite_location": "fwporigins:textures/gui/resource_bar_shadow.png",
     "bar_index": 6
   },
-  "name": "§4Terrifying Roar",
+  "name": "§n§4Terrifying Roar",
   "description": "You let out a loud nightmarish roar temporarily shattering the morale of your opponents. 60 second cooldown."
 }
