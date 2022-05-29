@@ -68,9 +68,9 @@
   "glow": {
     "type": "origins:self_glow",
     "use_teams": false,
-    "red": 0.5,
-    "green": 0.3,
-    "blue": 0.1,
+    "red": 0.8,
+    "green": 0.5,
+    "blue": 0,
     "condition": {
       "type": "origins:power_active",
       "power": "*:*_toggle"
@@ -112,9 +112,9 @@
           "speed": 0.0,
           "force": true,
           "spread": {
-            "x": 3.5,
+            "x": 3.0,
             "y": 0.0,
-            "z": 3.5
+            "z": 3.0
           }
         },
         {
