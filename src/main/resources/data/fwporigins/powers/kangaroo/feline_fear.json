@@ -2,7 +2,7 @@
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:area_of_effect",
-    "radius": 10,
+    "radius": 16,
     "bientity_action": {
       "type": "origins:actor_action",
       "action": {
@@ -41,7 +41,7 @@
         {
           "type": "origins:distance",
           "comparison": "<=",
-          "compare_to": 10
+          "compare_to": 16
         },
         {
           "type": "origins:target_condition",
