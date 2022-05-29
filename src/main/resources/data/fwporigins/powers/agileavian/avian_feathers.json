@@ -4,7 +4,7 @@
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 2,
+      "value": 0.5,
       "operation": "multiply_base"
     }
   },
@@ -19,7 +19,7 @@
 
   "fall": {
     "type": "origins:modify_falling",
-    "velocity": 0.5,
+    "velocity": 0.02,
     "take_fall_damage": false
   },
 
