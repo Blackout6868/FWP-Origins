@@ -9,7 +9,7 @@
   },
   "launch": {
     "type": "origins:launch",
-    "cooldown": 40,
+    "cooldown": 200,
     "speed": 1,
     "key": {
       "key": "key.origins.primary_active",
@@ -26,7 +26,7 @@
       "type": "origins:toggle",
       "power": "*:*_toggle"
     },
-    "cooldown": 40,
+    "cooldown": 200,
     "hud_render": {
       "should_render": false
     }

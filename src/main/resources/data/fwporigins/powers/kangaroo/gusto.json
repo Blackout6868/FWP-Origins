@@ -23,7 +23,7 @@
   },
   "cool": {
     "type": "origins:cooldown",
-    "cooldown": 1200,
+    "cooldown": 1199,
     "hud_render": {
       "should_render": true,
       "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png",
