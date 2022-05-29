@@ -6,9 +6,8 @@
       {
         "type": "origins:play_sound",
         "sound": "minecraft:entity.ender_dragon.growl",
-        "volume": 1.0,
+        "volume": 3.0,
         "pitch": 0.5
-
       },
       {
         "type": "origins:area_of_effect",
@@ -55,6 +54,36 @@
             }
           }
         }
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 30,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:blindness",
+              "duration": 60,
+              "amplifier": 1
+            }
+          }
+        }
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 30,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:nausea",
+              "duration": 60,
+              "amplifier": 2
+            }
+          }
+        }
       }
     ]
   },
@@ -63,6 +92,7 @@
     "continuous": false
   },
   "cooldown": 1200,
+  "start_value": 0,
   "hud_render": {
     "should_render": true,
     "inverted": false,

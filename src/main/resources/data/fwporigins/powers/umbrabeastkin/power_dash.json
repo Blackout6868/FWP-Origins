@@ -5,18 +5,18 @@
     "actions": [
       {
         "type": "origins:play_sound",
-        "sound": "minecraft:entity.phantom.swoop",
-        "volume": 1.0,
+        "sound": "minecraft:ui.toast.out",
+        "volume": 10.0,
         "pitch": 1.0
       },
       {
         "type": "origins:add_velocity",
-        "z": 20,
-        "y": 2
+        "space": "local",
+        "z": 2
       },
       {
         "type": "origins:area_of_effect",
-        "radius": 2,
+        "radius": 5,
         "bientity_action": {
           "type": "origins:target_action",
           "action": {
@@ -32,12 +32,11 @@
       },
       {
         "type": "origins:area_of_effect",
-        "radius": 2,
+        "radius": 5,
         "bientity_action": {
           "type": "origins:target_action",
           "action": {
             "type": "origins:add_velocity",
-            "z": 10,
             "y": 1
           }
         }
@@ -49,6 +48,7 @@
     "continuous": false
   },
   "cooldown": 200,
+  "start_value": 0,
   "hud_render": {
     "should_render": true,
     "inverted": false,
