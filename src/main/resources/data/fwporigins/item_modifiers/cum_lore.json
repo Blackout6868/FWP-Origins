@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "Sweet, succulent, savory cummoth juice.",
+      "color": "white",
+      "italic": false
+    }
+  ]
+}

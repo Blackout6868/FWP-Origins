@@ -6,12 +6,20 @@
       "type": "origins:execute_command",
       "command": "scale set pehkui:height 0.75"
     },
+    "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:height 0.75"
+    },
     "execute_chosen_when_orb": true
   },
 
   "slender":{
     "type": "origins:action_on_callback",
     "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:width 0.75"
+    },
+    "entity_action_added": {
       "type": "origins:execute_command",
       "command": "scale set pehkui:width 0.75"
     },

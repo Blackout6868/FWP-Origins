@@ -2,13 +2,13 @@
   "type": "origins:action_on_callback",
   "entity_action_respawned": {
     "type": "origins:execute_command",
-    "command": "scale set 1.5"
+    "command": "scale set 4"
   },
   "entity_action_added": {
     "type": "origins:execute_command",
-    "command": "scale set 1.5"
+    "command": "scale set 4"
   },
   "execute_chosen_when_orb": true,
-  "name": "Very Tall",
-  "description": "Big."
+  "name": "Cummoth Girth",
+  "description": "Cummoths are far larger than the average player."
 }

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "fwporigins:cummoth/cum",
+    "fwporigins:cummoth/size"
+  ],
+  "icon": "minecraft:milk_bucket",
+  "impact": 3,
+  "name": "Cummoth",
+  "description": "Yummy in my tummy"
+}
