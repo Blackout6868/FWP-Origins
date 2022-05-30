@@ -63,7 +63,7 @@
     "cooldown": 5,
     "hud_render": {
       "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle_two.png",
+      "sprite_location": "fwporigins:textures/gui/resource_bar_nuper.png",
       "bar_index": 3
     }
   },
@@ -72,7 +72,7 @@
     "cooldown": 5,
     "hud_render": {
       "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle_two.png",
+      "sprite_location": "fwporigins:textures/gui/resource_bar_nuper.png",
       "bar_index": 2
     }
   },
