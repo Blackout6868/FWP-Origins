@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "key": {
-    "key": "key.drop",
+    "key": "key.origins.primary_active",
     "continuous": true
   },
   "entity_action": {

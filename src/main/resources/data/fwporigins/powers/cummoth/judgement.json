@@ -1,0 +1,44 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 64,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:slowness",
+            "duration": 5,
+            "amplifier": 6,
+            "show_icon": false
+          },
+          {
+            "effect": "minecraft:glowing",
+            "duration": 5,
+            "show_icon": false
+          }
+        ]
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:can_see"
+        },
+        {
+          "type": "origins:relative_rotation",
+          "actor_rotation": "head",
+          "target_rotation": "head",
+          "comparison": "<=",
+          "compare_to": -0.95
+        }
+      ]
+    }
+  },
+  "interval": 1,
+  "name": "judgement",
+  "description": " "
+}

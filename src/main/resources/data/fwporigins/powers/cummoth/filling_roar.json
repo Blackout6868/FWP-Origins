@@ -1,0 +1,64 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.horse.death",
+        "volume": 6.0,
+        "pitch": 0.5
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:block",
+          "params": "minecraft:quartz_block"
+        },
+        "count": 750,
+        "speed": 5.0,
+        "force": true,
+        "spread": {
+          "x": 2.0,
+          "y": 2.0,
+          "z": 2.0
+        }
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 32,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:saturation",
+              "duration": 20,
+              "amplifier": 0
+            }
+          }
+        }
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 32,
+        "bientity_action": {
+          "type": "origins:set_in_love"
+        }
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "inverted": false,
+    "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png",
+    "bar_index": 1
+  },
+  "name": "Filling Roar",
+  "description": "You let out a lovely roar, saturating entities around you and causing them to breed uncontrollably."
+}

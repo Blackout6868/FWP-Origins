@@ -1,0 +1,22 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "addition"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -2,
+      "operation": "addition"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -2,
+      "operation": "addition"
+    }
+  ],
+  "name": "Big Vitality",
+  "description": "The cummoth is a peaceful grazing creature, and while it is not very powerful when it comes to cumbat, its health more than makes up for it. You gain 2 extra bars of health at the cost of your attack speed."
+}

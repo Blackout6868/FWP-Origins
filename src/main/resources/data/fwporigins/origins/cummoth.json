@@ -1,10 +1,14 @@
 {
   "powers": [
-    "fwporigins:kangaroo/ground_pound",
     "fwporigins:cummoth/cum",
+    "fwporigins:cummoth/filling_roar",
+    "fwporigins:cummoth/big_vitality",
+    "fwporigins:cummoth/judgement",
+    "fwporigins:cummoth/fast_break",
     "fwporigins:cummoth/girth",
     "origins:no_shield",
-    "origins:more_exhaustion"
+    "origins:more_exhaustion",
+    "origins:vegetarian"
   ],
   "icon": "minecraft:milk_bucket",
   "impact": 3,
