@@ -144,6 +144,35 @@
       }
     }
   },
+  "callback": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "team add passive_silverfish"
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "team leave @s"
+    },
+    "entity_action_added": {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "team join passive_silverfish @s"
+      },
+      "ticks": 1
+    }
+  },
+  "join_team": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "team join passive_silverfish @e[type=silverfish,nbt={HurtByTimestamp:0}]"
+    }
+  },
+
   "name": "Silverfish Relations",
-  "description": "You are able to produce silverfish eggs and infested stone using string and the respective block."
+  "description": "You are able to produce silverfish eggs and infested stone using string and the respective block. Silverfish are passive towards you."
 }
