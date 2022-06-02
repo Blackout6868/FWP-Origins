@@ -12,7 +12,8 @@
       {
         "type": "origins:add_velocity",
         "space": "local",
-        "z": 1
+        "z": 2,
+        "y": 0.5
       },
       {
         "type": "origins:area_of_effect",
