@@ -88,6 +88,10 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.eat"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_coolit"
         }
       ]
     },
@@ -115,10 +119,6 @@
           }
         }
       ]
-    },
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
     }
   },
   "iron": {
@@ -143,6 +143,10 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.eat"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_coolit"
         }
       ]
     },
@@ -170,10 +174,6 @@
           }
         }
       ]
-    },
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
     }
   },
   "gold": {
@@ -198,6 +198,10 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.eat"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_coolit"
         }
       ]
     },
@@ -225,10 +229,6 @@
           }
         }
       ]
-    },
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
     }
   },
   "emerald": {
@@ -253,6 +253,10 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.eat"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_coolit"
         }
       ]
     },
@@ -280,10 +284,6 @@
           }
         }
       ]
-    },
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
     }
   },
   "diamond": {
@@ -308,6 +308,10 @@
         {
           "type": "origins:play_sound",
           "sound": "minecraft:entity.generic.eat"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_coolit"
         }
       ]
     },
@@ -335,10 +339,6 @@
           }
         }
       ]
-    },
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
     }
   },
   "netherite": {
@@ -378,6 +378,10 @@
               "duration": 2400
             }
           ]
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_coolit"
         }
       ]
     },
@@ -405,10 +409,6 @@
           }
         }
       ]
-    },
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
     }
   },
   "nether_star": {
@@ -476,6 +476,10 @@
               "show_icon": false
             }
           ]
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_coolit"
         }
       ]
     },
@@ -503,7 +507,11 @@
           }
         }
       ]
-    },
+    }
+  },
+  "coolit": {
+    "type": "origins:cooldown",
+    "cooldown": 40,
     "hud_render": {
       "should_render": true,
       "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
