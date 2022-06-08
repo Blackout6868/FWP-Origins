@@ -100,13 +100,13 @@
   }
   },
 
-  "s_style": {
+  "trigger": {
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:trigger_cooldown",
       "power": "*:*_cd"
     },
-    "interval": 5,
+    "interval": 1,
     "condition": {
       "type": "origins:power_active",
       "power": "*:*_toggle"
@@ -115,7 +115,7 @@
 
   "cd": {
     "type": "origins:cooldown",
-    "cooldown": 5,
+    "cooldown": 1,
     "hud_render": {
       "should_render": true,
       "sprite_location": "fwporigins:textures/gui/resource_bar_blackout_dot.png",
