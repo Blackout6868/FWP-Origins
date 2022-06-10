@@ -47,6 +47,7 @@
       }
     }
   },
+
   "damagetoself": {
     "type": "origins:action_on_hit",
     "bientity_action": {
@@ -69,6 +70,7 @@
       }
     }
   },
+
   "damageeffect": {
     "type": "origins:action_on_hit",
     "bientity_action": {
@@ -88,6 +90,7 @@
         }
       }
     },
+
   "bientity_condition": {
     "type": "origins:actor_condition",
     "condition": {
@@ -97,6 +100,29 @@
   }
   },
 
+  "trigger": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_cd"
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+
+  "cd": {
+    "type": "origins:cooldown",
+    "cooldown": 1,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "fwporigins:textures/gui/resource_bar_blackout_dot.png",
+      "bar_index": 3
+    }
+  },
+
   "name": "100% Smash",
-  "description": "You put all of your power into a single pun heavily damaging your opponent and yourself!"
+  "description": "You put all of your power into a single punch heavily damaging your opponent and yourself!"
 }
