@@ -1,0 +1,25 @@
+{
+  "type": "origins:and",
+  "actions": [
+    {
+      "type": "origins:prevent_item_use",
+      "item_condition": {
+        "type": "minecraft:golden_apple"
+      }
+    },
+    {
+      "type": "origins:prevent_item_use",
+      "item_condition": {
+        "type": "minecraft:golden_carrot"
+      }
+    },
+    {
+      "type": "origins:prevent_item_use",
+      "item_condition": {
+        "type": "minecraft:enchanted_golden_apple"
+      }
+    }
+  ],
+  "name": "Gold Intolerance",
+  "description": "Your body cannot digest metal. Obviously."
+}

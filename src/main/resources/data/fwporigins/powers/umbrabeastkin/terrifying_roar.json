@@ -34,7 +34,7 @@
             "effect": {
               "effect": "minecraft:weakness",
               "duration": 300,
-              "amplifier": 2
+              "amplifier": 1
             }
           }
         }

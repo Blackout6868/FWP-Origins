@@ -10,7 +10,8 @@
     "fwporigins:umbrabeastkin/thick_fur",
     "fwporigins:umbrabeastkin/discomfort",
     "fwporigins:umbrabeastkin/dark_preference",
-    "origins:carnivore"
+    "fwporigins:umbrabeastkin/gold_intolerance",
+    "fwporigins:umbrabeastkin/adrenalized_nightmare"
   ],
   "icon": "minecraft:crying_obsidian",
   "impact": 3,
