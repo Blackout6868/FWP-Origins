@@ -15,7 +15,7 @@
             {
               "type": "origins:explode",
               "power": 20,
-              "destruction_type": "break",
+              "destruction_type": "none",
               "damage_self": false,
               "create_fire": false
             },
@@ -31,6 +31,21 @@
                 "x": 5.0,
                 "y": 3.0,
                 "z": 5.0
+              }
+            },
+            {
+              "type": "origins:spawn_particles",
+              "particle": {
+                "type": "minecraft:end_rod",
+                "params": "0.922 0.314 0.314 2"
+              },
+              "count": 600,
+              "speed": 5.0,
+              "force": true,
+              "spread": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 3.0
               }
             },
             {
@@ -51,7 +66,7 @@
             {
               "type": "origins:explode",
               "power": 60,
-              "destruction_type": "break",
+              "destruction_type": "none",
               "damage_self": false,
               "create_fire": false
             },
@@ -67,6 +82,21 @@
                 "x": 10.0,
                 "y": 6.0,
                 "z": 10.0
+              }
+            },
+            {
+              "type": "origins:spawn_particles",
+              "particle": {
+                "type": "minecraft:end_rod",
+                "params": "0.922 0.314 0.314 2"
+              },
+              "count": 1800,
+              "speed": 5.0,
+              "force": true,
+              "spread": {
+                "x": 3.0,
+                "y": 3.0,
+                "z": 3.0
               }
             },
             {
