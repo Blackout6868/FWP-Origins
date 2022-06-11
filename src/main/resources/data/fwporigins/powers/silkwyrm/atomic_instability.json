@@ -14,8 +14,8 @@
           "actions": [
             {
               "type": "origins:explode",
-              "power": 20,
-              "destruction_type": "none",
+              "power": 10,
+              "destruction_type": "break",
               "damage_self": false,
               "create_fire": false
             },
@@ -65,8 +65,8 @@
           "actions": [
             {
               "type": "origins:explode",
-              "power": 60,
-              "destruction_type": "none",
+              "power": 20,
+              "destruction_type": "break",
               "damage_self": false,
               "create_fire": false
             },
