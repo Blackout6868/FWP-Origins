@@ -24,7 +24,7 @@
               "particle": {
                 "type": "minecraft:portal"
               },
-              "count": 320,
+              "count": 600,
               "speed": 0.0,
               "force": true,
               "spread": {
@@ -75,7 +75,7 @@
               "particle": {
                 "type": "minecraft:portal"
               },
-              "count": 960,
+              "count": 1200,
               "speed": 0.0,
               "force": true,
               "spread": {
@@ -90,7 +90,7 @@
                 "type": "minecraft:end_rod",
                 "params": "0.922 0.314 0.314 2"
               },
-              "count": 1800,
+              "count": 1200,
               "speed": 5.0,
               "force": true,
               "spread": {
@@ -101,8 +101,8 @@
             },
             {
               "type": "origins:spawn_effect_cloud",
-              "radius": 32.0,
-              "wait_time": 20,
+              "radius": 24.0,
+              "wait_time": 40,
               "effect": {
                 "effect": "minecraft:poison",
                 "duration": 1200
