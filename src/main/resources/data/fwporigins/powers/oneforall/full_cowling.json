@@ -60,7 +60,7 @@
               "effect": {
                 "effect": "minecraft:speed",
                 "duration": 100,
-                "amplifier": 0,
+                "amplifier": 1,
                 "is_ambient": true,
                 "show_particles": false,
                 "show_icon": true
@@ -141,7 +141,7 @@
               "effect": {
                 "effect": "minecraft:speed",
                 "duration": 100,
-                "amplifier": 1,
+                "amplifier": 2,
                 "is_ambient": true,
                 "show_particles": false,
                 "show_icon": true
@@ -223,7 +223,7 @@
               "effect": {
                 "effect": "minecraft:speed",
                 "duration": 100,
-                "amplifier": 2,
+                "amplifier": 3,
                 "is_ambient": true,
                 "show_particles": false,
                 "show_icon": true
@@ -305,7 +305,7 @@
               "effect": {
                 "effect": "minecraft:speed",
                 "duration": 100,
-                "amplifier": 3,
+                "amplifier": 4,
                 "is_ambient": true,
                 "show_particles": false,
                 "show_icon": true

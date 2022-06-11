@@ -5,7 +5,7 @@
     "levels": -1
   },
 
-  "cooldown": 300,
+  "cooldown": 900,
   "hud_render": {
     "should_render": true,
     "inverted": true,

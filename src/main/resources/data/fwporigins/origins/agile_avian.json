@@ -8,7 +8,9 @@
     "fwporigins:agileavian/compact",
     "fwporigins:agileavian/frail_body",
     "fwporigins:agileavian/sleep",
-    "fwporigins:agileavian/bird_eyes"
+    "fwporigins:agileavian/bird_eyes",
+    "fwporigins:oneforall/no_wings",
+    "fwporigins:oneforall/no_wings_two"
   ],
   "icon": "minecraft:leather_boots",
   "impact": 3,

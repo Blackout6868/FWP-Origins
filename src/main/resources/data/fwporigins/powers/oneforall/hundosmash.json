@@ -32,12 +32,24 @@
   "extradamage": {
     "type": "origins:action_on_hit",
     "bientity_action": {
-      "type": "origins:damage",
-      "amount": 20,
-      "source": {
-        "name": "player",
-        "bypasses_armor": false
-      }
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:damage",
+          "amount": 20,
+          "source": {
+            "name": "player",
+            "bypasses_armor": false
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:add_velocity",
+            "y": 2
+          }
+        }
+      ]
     },
     "bientity_condition": {
       "type": "origins:actor_condition",
@@ -51,16 +63,28 @@
   "damagetoself": {
     "type": "origins:action_on_hit",
     "bientity_action": {
-      "type": "origins:actor_action",
-      "action": {
-        "type": "origins:damage",
-        "amount": 15,
-        "source": {
-          "name": "outOfWorld",
-          "fire": false,
-          "bypasses_armor": false
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:damage",
+            "amount": 15,
+            "source": {
+              "name": "outOfWorld",
+              "fire": false,
+              "bypasses_armor": false
+            }
+          }
+        },
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.generic.explode"
+          }
         }
-      }
+      ]
     },
     "bientity_condition": {
       "type": "origins:actor_condition",
