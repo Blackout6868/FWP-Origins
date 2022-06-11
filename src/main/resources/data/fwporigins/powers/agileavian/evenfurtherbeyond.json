@@ -9,28 +9,16 @@
     }
   },
 
-  "smoke": {
-    "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:spawn_particles",
-      "particle": {
-        "type": "minecraft:block",
-        "params": "minecraft:campfire_signal_smoke"
-      },
-      "count": 16,
-      "speed": 0.0,
-      "force": true,
-      "spread": {
-        "x": 1.0,
-        "y": 0.5,
-        "z": 1.0
-      }
-    },
+  "glow": {
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 1.0,
+    "green": 0.0,
+    "blue": 0.0,
     "condition": {
       "type": "origins:power_active",
       "power": "*:*_toggle"
-    },
-    "interval": 2
+    }
   },
 
   "morespeed" : {
@@ -71,12 +59,8 @@
             "type": "origins:and",
             "actions": [
               {
-                "type": "origins:apply_effect",
-                "effect": {
-                  "effect": "minecraft:wither",
-                  "duration": 200,
-                  "amplifier": 0
-                }
+                "type": "origins:exhaust",
+                "amount": 2.0
               },
               {
                 "type": "origins:toggle",
