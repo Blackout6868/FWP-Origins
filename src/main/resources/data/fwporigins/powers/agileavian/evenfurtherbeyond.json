@@ -1,0 +1,107 @@
+{
+  "type": "origins:multiple",
+
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "loadToolbarActivator"
+    }
+  },
+
+  "smoke": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:spawn_particles",
+      "particle": {
+        "type": "minecraft:block",
+        "params": "minecraft:campfire_signal_smoke"
+      },
+      "count": 16,
+      "speed": 0.0,
+      "force": true,
+      "spread": {
+        "x": 1.0,
+        "y": 0.5,
+        "z": 1.0
+      }
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    },
+    "interval": 2
+  },
+
+  "morespeed" : {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:speed",
+    "modifier": {
+      "operation": "addition",
+      "value": 5
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+
+"longerspeed" : {
+  "type": "origins:modify_status_effect_duration",
+  "status_effect": "minecraft:speed",
+  "modifier": {
+    "operation": "addition",
+    "value": 600
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "*:*_toggle"
+  }
+},
+
+  "downsides" : {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:delay",
+          "ticks": 600,
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:wither",
+                  "duration": 200,
+                  "amplifier": 0
+                }
+              },
+              {
+                "type": "origins:toggle",
+                "power": "*:*_toggle"
+              }
+            ]
+          }
+        },
+
+        {
+            "type": "origins:toggle",
+            "power": "*:*_toggle"
+        }
+        ]
+    },
+    "key": "key.loadToolbarActivator",
+    "cooldown": 1200,
+    "hud_render": {
+      "should_render": true
+    },
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:speed",
+      "min_amplifier": 1
+    }
+  },
+"name": "test"
+}
