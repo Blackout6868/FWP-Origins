@@ -3,19 +3,28 @@
   "apple": {
       "type": "origins:prevent_item_use",
       "item_condition": {
-        "type": "minecraft:golden_apple"
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:golden_apple"
+        }
       }
     },
   "carrot": {
       "type": "origins:prevent_item_use",
       "item_condition": {
-        "type": "minecraft:golden_carrot"
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:golden_carrot"
+        }
       }
     },
   "enchanted": {
       "type": "origins:prevent_item_use",
       "item_condition": {
-        "type": "minecraft:enchanted_golden_apple"
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:enchanted_golden_apple"
+        }
       }
     },
   "name": "Gold Intolerance",
