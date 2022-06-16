@@ -1,0 +1,50 @@
+{
+  "type": "origins:multiple",
+  "increasedattack": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+          "type": "origins:damage",
+          "amount": 6,
+          "source": {
+            "name": "Kangaroo Might",
+            "bypasses_armor": true,
+            "unblockable": true
+          }
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "fwporigins:boxing_gloves"
+          }
+        }
+      }
+    }
+  },
+
+  "faster attack" : {
+
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "multiply_total",
+      "value": 1,
+      "name": "Increased sprinting speed"
+    },
+    "tick_rate": 1,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+        "item" : "fwporigins:boxing_gloves"
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "fwporigins",
+  "version": "1.1.0",
 
   "name": "Fuzzy Wuzzy Pogchamps- Origins(Fabric)",
   "description": "Custom Minecraft origins for members of the Fuzzy Wuzzy Pogchamp SMP! Requires Origins 1.3.2 and Pehkui 3.3.1",
@@ -11,17 +11,17 @@
     "Shadow_7183"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://github.com/Blackout6868/FWP-Origins/releases",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/fwporigins/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.example.FWPOrigins"
     ]
   },
   "mixins": [
@@ -37,6 +37,5 @@
     "pehkui": "*"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
