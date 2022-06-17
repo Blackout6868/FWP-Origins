@@ -1,5 +1,6 @@
 package net.fabricmc.example.registry;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -19,7 +20,7 @@ public class Boxingtool implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 9;
+        return 0F;
     }
 
     @Override
@@ -32,8 +33,7 @@ public class Boxingtool implements ToolMaterial {
         return 15;
     }
 
-    @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return Ingredient.ofItems(Items.LEATHER);
     }
 }

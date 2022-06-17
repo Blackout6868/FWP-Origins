@@ -1,50 +1,29 @@
 {
-  "type": "origins:multiple",
-  "increasedattack": {
-    "type": "origins:action_on_hit",
-    "bientity_action": {
-          "type": "origins:damage",
-          "amount": 6,
-          "source": {
-            "name": "Kangaroo Might",
-            "bypasses_armor": true,
-            "unblockable": true
-          }
-    },
-    "bientity_condition": {
-      "type": "origins:actor_condition",
-      "condition": {
-        "type": "origins:equipped_item",
-        "equipment_slot": "mainhand",
-        "item_condition": {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "item": "fwporigins:boxing_gloves"
-          }
-        }
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "fwporigins:kangaroo/boxing_glove_crafting",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "RWR",
+      "WSW",
+      "RWR"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:red_wool"
+      },
+      "R": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
       }
+    },
+    "result": {
+      "item": "fwporigins:boxing_gloves",
+      "count": 1
     }
   },
-
-  "faster attack" : {
-
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.attack_speed",
-      "operation": "multiply_total",
-      "value": 1,
-      "name": "Increased sprinting speed"
-    },
-    "tick_rate": 1,
-    "condition": {
-      "type": "origins:equipped_item",
-      "equipment_slot": "mainhand",
-      "item_condition": {
-        "type": "origins:ingredient",
-        "ingredient": {
-        "item" : "fwporigins:boxing_gloves"
-        }
-      }
-    }
+  "name": "Boxing Benefit",
+  "description": "The Kangaroo has the exclusive crafting rights to the Boxing Glove, R1: NI RW NI| R2: RW NS RW| R3: NI RW NI"
   }
-}

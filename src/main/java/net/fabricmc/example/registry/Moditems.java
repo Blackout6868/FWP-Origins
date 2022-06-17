@@ -13,7 +13,7 @@ import net.minecraft.util.registry.Registry;
 
 public class Moditems {
     //public  static final Item BOXING_GLOVES = new Item(new Item.Settings().group(ItemGroup.COMBAT).maxCount(1));
-    public static ToolItem BOXING_GLOVES = new SwordItem(Boxingtool.INSTANCE, 0,2, new Item.Settings().group());
+    public static ToolItem BOXING_GLOVES = new SwordItem(Boxingtool.INSTANCE, 0,2, new Item.Settings().group(ItemGroup.COMBAT));
 
     public  static void registerItems(){
         Registry.register(Registry.ITEM, new Identifier(FWPOrigins.MOD_ID, "boxing_gloves"), BOXING_GLOVES);
