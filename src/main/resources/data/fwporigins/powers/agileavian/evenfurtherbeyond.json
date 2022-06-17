@@ -1,91 +1,93 @@
 {
-  "type": "origins:multiple",
-
-  "toggle": {
-    "type": "origins:toggle",
-    "active_by_default": false,
-    "key": {
-      "key": "loadToolbarActivator"
-    }
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:delay",
+        "ticks": 600,
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:revoke_power",
+              "power": "fwporigins:agileavian/enhanced_immunity",
+              "source": "fwporigins:agile_avian"
+              },
+            {
+              "type": "origins:apply_effect",
+              "effects": [
+                {
+                  "effect": "minecraft:weakness",
+                  "duration": 300,
+                  "is_ambient": false,
+                  "show_particles": true,
+                  "show_icon": true,
+                  "amplifier": 1
+                },
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 300,
+                  "is_ambient": false,
+                  "show_particles": true,
+                  "show_icon": true,
+                  "amplifier": 1
+                },
+                {
+                  "effect": "minecraft:nausea",
+                  "duration": 300,
+                  "is_ambient": false,
+                  "show_particles": true,
+                  "show_icon": true,
+                  "amplifier": 1
+                }
+                ]
+            },
+            {
+              "type": "origins:delay",
+              "ticks": 300,
+              "action": {
+                "type": "origins:grant_power",
+                "power": "fwporigins:agileavian/enhanced_immunity",
+                "source": "fwporigins:agile_avian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:speed"
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "duration": 600,
+          "amplifier": 9
+        }
+      }
+    ]
   },
-
-  "glow": {
-    "type": "origins:self_glow",
-    "use_teams": false,
-    "red": 1.0,
-    "green": 0.0,
-    "blue": 0.0,
-    "condition": {
-      "type": "origins:power_active",
-      "power": "*:*_toggle"
-    }
-  },
-
-  "morespeed" : {
-    "type": "origins:modify_status_effect_amplifier",
-    "status_effect": "minecraft:speed",
-    "modifier": {
-      "operation": "addition",
-      "value": 5
-    },
-    "condition": {
-      "type": "origins:power_active",
-      "power": "*:*_toggle"
-    }
-  },
-
-"longerspeed" : {
-  "type": "origins:modify_status_effect_duration",
-  "status_effect": "minecraft:speed",
-  "modifier": {
-    "operation": "addition",
-    "value": 600
+  "key": "key.loadToolbarActivator",
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "*:*_toggle"
-  }
-},
-
-  "downsides" : {
-    "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:delay",
-          "ticks": 600,
-          "action": {
-            "type": "origins:and",
-            "actions": [
-              {
-                "type": "origins:exhaust",
-                "amount": 2.0
-              },
-              {
-                "type": "origins:toggle",
-                "power": "*:*_toggle"
-              }
-            ]
-          }
-        },
-
-        {
-            "type": "origins:toggle",
-            "power": "*:*_toggle"
-        }
-        ]
-    },
-    "key": "key.loadToolbarActivator",
-    "cooldown": 1200,
-    "hud_render": {
-      "should_render": true
-    },
-    "condition": {
-      "type": "origins:status_effect",
-      "effect": "minecraft:speed",
-      "min_amplifier": 1
-    }
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:speed",
+        "min_amplifier": 1
+      },
+      {
+        "type": "origins:advancement",
+        "advancement": "minecraft:story/enter_the_end"
+      }
+    ]
   },
-"name": "test"
+  "name": "Even Further Beyond",
+  "description": "After rigorous training(Entering the End), you are able to push your body past its natural limits but it comes at a cost."
 }

@@ -1,8 +1,8 @@
 {
   "powers": [
-    "fwporigins:agileavian/evenfurtherbeyond",
     "fwporigins:agileavian/mailbag",
     "fwporigins:agileavian/record_breaker",
+    "fwporigins:agileavian/evenfurtherbeyond",
     "fwporigins:agileavian/enhanced_immunity",
     "fwporigins:agileavian/avian_feathers",
     "fwporigins:agileavian/peak_performance",
@@ -10,8 +10,7 @@
     "fwporigins:agileavian/frail_body",
     "fwporigins:agileavian/sleep",
     "fwporigins:agileavian/bird_eyes",
-    "fwporigins:oneforall/no_wings",
-    "fwporigins:oneforall/no_wings_two"
+    "fwporigins:agileavian/flightless_bird"
   ],
   "icon": "minecraft:leather_boots",
   "impact": 3,

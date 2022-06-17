@@ -1,0 +1,29 @@
+{
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "fwporigins:kangaroo/boxing_glove_crafting",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "RWR",
+      "WSW",
+      "RWR"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:red_wool"
+      },
+      "R": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "fwporigins:boxing_gloves",
+      "count": 1
+    }
+  },
+  "name": "Boxing Benefit",
+  "description": "The Kangaroo has the exclusive crafting rights to the Boxing Glove, R1: NI RW NI| R2: RW NS RW| R3: NI RW NI"
+  }
