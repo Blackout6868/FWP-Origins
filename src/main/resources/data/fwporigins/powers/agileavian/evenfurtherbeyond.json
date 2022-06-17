@@ -72,7 +72,9 @@
   "key": "key.loadToolbarActivator",
   "cooldown": 600,
   "hud_render": {
-    "should_render": true
+    "should_render": true,
+    "sprite_location": "fwporigins:textures/gui/resource_bar_blackout.png",
+    "bar_index": 4
   },
   "condition": {
     "type": "origins:and",
