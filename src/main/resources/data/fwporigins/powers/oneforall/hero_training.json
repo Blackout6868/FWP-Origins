@@ -2,14 +2,14 @@
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:add_xp",
-    "levels": 1200
+    "levels": 1
   },
   "condition": {
     "type": "origins:xp_levels",
     "comparison": "<",
     "compare_to": 60
   },
-  "interval": 1,
+  "interval": 1200,
   "name": "Hero Training",
   "description": "You Undergo Hero training to improve full cowling. Gaining one level over time."
 }
