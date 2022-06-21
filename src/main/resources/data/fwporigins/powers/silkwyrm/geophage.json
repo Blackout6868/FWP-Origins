@@ -511,7 +511,7 @@
   },
   "coolit": {
     "type": "origins:cooldown",
-    "cooldown": 40,
+    "cooldown": 30,
     "hud_render": {
       "should_render": true,
       "sprite_location": "fwporigins:textures/gui/resource_bar_sewaddle.png"
