@@ -4,7 +4,7 @@
     "type": "origins:damage",
     "amount": 3,
     "source": {
-      "name": "Kangaroo Might",
+      "name": "player",
       "bypasses_armor": true,
       "unblockable": true
     }
