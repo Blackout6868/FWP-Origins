@@ -8,28 +8,33 @@
         {
           "type": "origins:chance",
           "action": {
-            "type": "origins:add_velocity",
-            "y": 3
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:add_velocity",
+                "y": 3
+              },
+              {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.generic.explode",
+                "volume": 0.25,
+                "pitch": 0.5
+              },
+              {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.firework_rocket.launch",
+                "volume": 5,
+                "pitch": 0.5
+              },
+              {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.player.big_fall",
+                "volume": 0.5,
+                "pitch": 0.25
+              }
+            ]
           },
           "chance": 0.2
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.generic.explode",
-          "volume": 0.25,
-          "pitch": 0.5
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.firework_rocket.launch",
-          "volume": 5,
-          "pitch": 0.5
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.player.big_fall",
-          "volume": 0.5,
-          "pitch": 0.25
         },
         {
           "type": "origins:trigger_cooldown",
